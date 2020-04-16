@@ -3,20 +3,13 @@
 
 namespace app\api\controller;
 require __DIR__ . '/vendor/autoload.php';
-
-use think\Controller;
 use vendor\AlibabaCloud\Client\AlibabaCloud;
 use vendor\AlibabaCloud\Client\Exception\ClientException;
 use vendor\AlibabaCloud\Client\Exception\ServerException;
 use vendor\AlibabaCloud\Vod\Vod;
 
-class Aliyuncloud extends Controller
+class Aliyuncloud
 {
-    private $accessKeyId = 'LTAIcnQuDKBFNsNU';   //阿里云 accessKeyId
-    private $accessKeySecret = 'dRWGflyAfXJob4wtrc8fgIO5879GwV'; //阿里云 accessKeySecret
-    private  $regionId = 'cn-shanghai';   //表示中国区域 不用修改
-    private  $TemplateGroupId = 'VOD_NO_TRANSCODE';  //阿里云控制台视频点播>全局设置->转码设置  转码组id
-
     function initVodClient($accessKeyId, $accessKeySecret) {
         $regionId = 'cn-shanghai';
         AlibabaCloud::accessKeyClient($accessKeyId, $accessKeySecret)
