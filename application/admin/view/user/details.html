@@ -1,0 +1,53 @@
+{extend name="iframe" /}
+{block name="body"}
+<div class="layui-container">
+    <table class="layui-table">
+        <colgroup>
+            <col width="150">
+            <col>
+        </colgroup>
+        <tbody>
+        <tr>
+            <td>教师姓名</td>
+            <td>{$details.username}</td>
+        </tr>
+        <tr>
+            <td>联系方式</td>
+            <td>{$details.mobile}</td>
+        </tr>
+        <tr>
+            <td>性别</td>
+            <td>{$details.sex}</td>
+        </tr>
+        <tr>
+            <td>出生年月</td>
+            <td>{$details.birth_y}{$details.birth_m}{$details.birth_d}</td>
+        </tr>
+        <!--<tr>
+            <td>地址</td>
+            <td>{$details.provid}{$details.cityid}{$details.areaid}</td>
+        </tr>-->
+        <tr>
+            <td>身份证号</td>
+            <td>{$details.identity}</td>
+        </tr>
+        <tr>
+            <td>身份证正面</td>
+            <td><img src="{$details.identity_z}"></td>
+        </tr>
+        <tr>
+            <td>身份证号反面</td>
+            <td><img src="{$details.identity_f}"></td>
+        </tr>
+        <tr>
+            <td>个人简介</td>
+            <td>{$details.brief}</td>
+        </tr>
+        <tr>
+            <td>申请时间</td>
+            <td>{$details.addtime}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+{/block}

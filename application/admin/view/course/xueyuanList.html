@@ -1,0 +1,26 @@
+{extend name="iframe" /}
+{block name="body"}
+<div class="layui-card">
+    <div class="layui-card-body">
+        <table class="layui-table layui-form">
+            <thead>
+            <tr>
+                <th style="width:180px;">学员姓名</th>
+                <th >学习进度</th>
+            </tr>
+            </thead>
+            <tbody id="material-list">
+            {foreach name="list" item="v" empty="$empty"}
+            <tr>
+                <th >{$v.uid|getUserName}</th>
+                <th ><div class="layui-progress" lay-showPercent="yes">
+                         <div class="layui-progress-bar layui-bg-green" lay-percent="{$v.progress}%"></div>
+                    </div>
+                </th>
+            </tr>
+            {/foreach}
+            </tbody>
+        </table>
+    </div>
+</div>
+{/block}

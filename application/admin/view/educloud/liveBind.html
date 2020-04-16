@@ -1,0 +1,40 @@
+{extend name="base" /}
+{block name="body"}
+<div class="layui-card">
+    <div class="layui-card-header">绑定账号</div>
+    <div class="layui-card-body">
+        <form action="{:request()->url()}" class="layui-form" method="post">
+            <div class="layui-form-item">
+                <label class="layui-form-label">Partner_ID</label>
+                <div class="layui-input-block">
+                    <input type="text" name="Partner_ID" value="{$data.Partner_ID}" lay-verify="required" autocomplete="off" placeholder="请填写直播账号Partner_ID" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">Partner_Key</label>
+                <div class="layui-input-block">
+                    <input type="text" name="Partner_Key" value="{$data.Partner_Key}" lay-verify="required" autocomplete="off" placeholder="请填写直播账号Partner_Key" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">Secret_Key</label>
+                <div class="layui-input-block">
+                    <input type="text" name="Secret_Key" value="{$data.Secret_Key}" lay-verify="required" autocomplete="off" placeholder="请填写直播账号Secret_Key" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">private_domain</label>
+                <div class="layui-input-block">
+                    <input type="text" name="private_domain" value="{$data.private_domain}" lay-verify="required|http" autocomplete="off" placeholder="请填写直播账号private_domain" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-filter="*" lay-submit="">保存</button>
+                    <button class="layui-btn layui-btn-primary" type="reset">重置</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{/block}

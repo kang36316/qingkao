@@ -1,0 +1,44 @@
+---------------------------------------------------------------
+[ 2020-03-30T14:43:53+08:00 ] 0.0.0.0 GET localhost/
+[ error ] [0]模板文件不存在:../template/wap/index\index.html
+---------------------------------------------------------------
+[ 2020-03-30T14:43:55+08:00 ] 0.0.0.0 GET localhost/
+[ error ] [0]模板文件不存在:../template/wap/index\index.html
+---------------------------------------------------------------
+[ 2020-03-30T14:44:19+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-03-30T15:08:52+08:00 ] 0.0.0.0 GET localhost/admin/mobileterminal/mobile
+[ error ] [8]未定义数组索引: notes
+---------------------------------------------------------------
+[ 2020-03-30T15:08:57+08:00 ] 0.0.0.0 GET localhost/admin/database/index
+[ error ] [2]fclose() expects parameter 1 to be resource, null given
+---------------------------------------------------------------
+[ 2020-03-30T15:09:06+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: VideoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: Total
+---------------------------------------------------------------
+[ 2020-03-30T15:09:16+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: VideoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: Total
+---------------------------------------------------------------
+[ 2020-03-30T15:09:44+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-03-30T15:09:50+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-03-30T15:45:44+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-03-30T17:06:41+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'qingkao'
+---------------------------------------------------------------
+[ 2020-03-30T17:06:50+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map

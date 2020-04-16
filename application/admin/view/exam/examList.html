@@ -1,0 +1,80 @@
+{extend name="base" /}
+{block name="body"}
+<div class="layui-card">
+    <div class="layui-card-header">
+        <form action="{:url('admin/course/liveindex')}" class="layui-form" method="get">
+            <div class="layui-form-item">
+                <div class="layui-input-inline">
+                    <input type="text" name="question" value="{:input('question')}" autocomplete="off" placeholder="请输入试题关键字" class="layui-input"/>
+                </div>
+                <div class="layui-input-inline">
+                    <select name="cid">
+                        <option value="">全部分类</option>
+                        {foreach name="courseCategory" item="v"}
+                        <option value="{$v.id}" {if condition="input('questionknowsid') eq $v.id" }selected="selected"{/if}>{neq name="v.level" value="1"}|{for start="1" end="$v.level"} &#45;&#45;&#45;&#45;{/for}{/neq} {$v.category_name}</option>
+                        {/foreach}
+                    </select>
+                </div>
+                <div class="layui-input-inline">
+                    <select name="is_top">
+                        <option value="">试题类型</option>
+                        <option value="1" {if condition="input('?questiontype') and (input('questiontype') eq 1)"} selected="selected"{/if}>选择</option>
+                        <option value="0" {if condition="input('?questiontype') and (input('questiontype') eq 0)"} selected="selected"{/if}>填空</option>
+                    </select>
+                </div>
+                <div class="layui-input-inline">
+                    <select name="is_hot">
+                        <option value="">试题录入者</option>
+                        <option value="1" {if condition="input('?questionuserid') and (input('questionuserid') eq 1)"} selected="selected"{/if}>是</option>
+                        <option value="0" {if condition="input('?questionuserid') and (input('questionuserid') eq 0)"} selected="selected"{/if}>否</option>
+                    </select>
+                </div>
+
+                <div>
+                    <button class="layui-btn layui-btn-primary ajax-search"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="layui-card-body">
+        <div class="layui-btn-group">
+            <a href="{:url('admin/exam/selfpage')}" class="layui-btn"><i class="fa fa-plus-circle"></i> 手动组卷</a>
+            <a href="{:url('admin/exam/questionsCSVleAdd')}" class="layui-btn ajax-iframe" data-width="800px" data-height="500px"><i class="fa fa-plus-circle"></i> 智能组卷</a>
+            <a href="{:url('admin/exam/examDel')}" class="layui-btn layui-btn-danger ajax-batch"><i class="fa fa-trash-o"></i> 批量删除</a>
+        </div>
+        <table class="layui-table layui-form">
+            <thead>
+            <tr>
+                <th style="width:20px;"><input type="checkbox" lay-skin="primary" lay-filter="*"></th>
+                <th style="width:20px;">ID</th>
+                <th >考试名称</th>
+                <th style="width:120px;">组卷人</th>
+                <th  style="width:130px;">考试科目</th>
+                <th  style="width:130px;">组卷时间</th>
+                <th  style="width:100px;">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {foreach name="list" item="v" empty="$empty"}
+            <tr>
+                <td><input type="checkbox" name="id" value="{$v.id}" lay-skin="primary"></td>
+                <td>{$v.id}</td>
+                <td class="layui-elip">{$v.exam}</td>
+                <td>{$v.examauthorid|getTeacherName}</td>
+                <td>{$v.examsubject|get_category_name}</td>
+                <td>{$v.addtime}</td>
+                <td>
+                    <div class="layui-btn-group mb0">
+                        <a href="{:url('admin/exam/examPreview', ['id' => $v.id])}" class="layui-btn  layui-btn-warm layui-btn-xs ajax-iframe" data-width="800px" data-height="500px"> <i class="layui-icon">&#xe705;</i></a>
+                        <!--<a href="{:url('admin/exam/examEdit', ['id' => $v.id])}" class="layui-btn layui-btn-xs ajax-iframe" data-width="800px" data-height="500px"> <i class="layui-icon">&#xe642;</i></a>-->
+                        <a href="{:url('admin/exam/examDel', ['id' => $v.id])}" class="layui-btn layui-btn-xs layui-btn-danger ajax-delete"> <i class="layui-icon">&#xe640;</i></a>
+                    </div>
+                </td>
+            </tr>
+            {/foreach}
+            </tbody>
+        </table>
+        <div class="page">{$list->render()}</div>
+    </div>
+</div>
+{/block}

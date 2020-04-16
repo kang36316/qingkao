@@ -1,0 +1,29 @@
+{extend name="base" /}
+{block name="css"}
+<link rel="stylesheet" type="text/css" href="__CSS__/livedown.css" media="all">
+{/block}
+{block name="body"}
+<div class="main">
+    <div class="top">
+        <p class="client">云端直播客户端</p>
+        <p class="qiye">企业级互动直播专家</p>
+        <div class="download">
+            <a href="javascript:void(0)"><div class="phone animated"></div><p>手机APP</p><p>扫描二维码下载</p></a><a href="http://www.baijiayun.com/default/home/liveclientDownload?type=mac&amp;partner_id=30000000"><div class="mac animated"></div><p>Mac版</p><p>点击下载</p></a><a href="http://www.baijiayun.com/default/home/liveclientDownload?type=windows&amp;partner_id=30000000"><div class="windows animated"></div><p>Windows版</p><p>点击下载</p></a>
+            <div class="barcode-container  layui-hide"><div class="mask"></div><div class="barcode-wrapper"><div class="barcode-close"><div class="one"></div><div class="two"></div></div><div class="barcode"></div><div class="barcode-desc">扫描下载云端直播 APP</div></div></div>
+        </div>
+    </div>
+</div>
+{/block}
+{block name="js"}
+<script>
+    $(".phone").click(function(){
+        $(".barcode-container").removeClass("layui-hide");
+    });
+    $(".one").click(function(){
+        $(".barcode-container").addClass("layui-hide");
+    });
+    $(".two").click(function(){
+        $(".barcode-container").addClass("layui-hide");
+    });
+</script>
+{/block}

@@ -1,0 +1,180 @@
+{extend name="base" /}
+{block name="css"}<link rel="stylesheet" type="text/css" href="__CSS__/forum.css" media="all">{/block}
+{block name="body"}
+<div class="layui-hide-xs">
+    <div class="fly-panel fly-column">
+        <div class="layui-container">
+            <ul class="layui-clear">
+                {foreach name="plate" item="v"}
+                <li><a href="{:url('index/forum/index',['pid' => $v.id])}">{$v.name}</a></li>
+                {/foreach}
+                <!--{if condition="$islogin"}
+                <li class="layui-hide-xs layui-hide-sm layui-show-md-inline-block"><span class="fly-mid"></span></li>
+                <li class="layui-hide-xs layui-hide-sm layui-show-md-inline-block"><a href="">我的问答</a></li>
+                <li class="layui-hide-xs layui-hide-sm layui-show-md-inline-block"><a href="">我的收藏</a></li>
+                {/if}-->
+            </ul>
+            <div class="fly-column-right layui-hide-xs">
+                <span class="fly-search"><i class="layui-icon"></i></span>
+                <a href="{:url('index/forum/addtopic')}" class="layui-btn">发表新帖</a>
+            </div>
+            <div class="layui-hide-sm layui-show-xs-block" style="margin-top: -10px; padding-bottom: 10px; text-align: center;">
+                <a href="{:url('index/forum/addtopic')}" class="layui-btn">发表新帖</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="layui-container">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md8 content detail">
+            <div class="fly-panel detail-box">
+                <h1>{$detail.name}</h1>
+                <div class="fly-detail-info">
+                    <span class="layui-badge layui-bg-red">{$detail.pid|getPlateName}</span>
+                    {if condition="$detail.istop==1"}
+                    <span class="layui-badge layui-bg-black">置顶</span>
+                    {/if}
+                    {if condition="$detail.isessence==1"}
+                    <span class="layui-badge layui-bg-red">精帖</span>
+                    {/if}
+                    <div class="fly-admin-box layui-layout-right" data-id="{$detail.id}">
+                        {if condition="$isAuthor==1 or ($userInfo.admin_id gt 0)"}
+                        <span  class="layui-btn layui-btn-xs jie-admin" type="del">删除</span>
+                        {/if}
+                        {if condition="$userInfo.admin_id gt 0"}
+                        <span  class="layui-btn layui-btn-xs jie-admin" type="set" field="istop" rank="{$detail.istop}">置顶</span>
+                        <span  class="layui-btn layui-btn-xs jie-admin" type="set" field="isessence" rank="{$detail.isessence}">加精</span>
+                        {/if}
+                    </div>
+                    <span class="fly-list-nums">
+                        <a href="#comment"><i class="iconfont" title="回复">&#xe60c;</i> {$detail.replaycount}</a>
+                        <i class="iconfont" title="人气">&#xe60b;</i> {$detail.hits}
+                    </span>
+                </div>
+                <div class="detail-about">
+                    <a class="fly-avatar" href="javascript:void(0)">
+                        <img src="{$detail.uid|getAvatar|defaultAvatar}" alt="{$detail.uid|getUserName}">
+                    </a>
+                    <div class="fly-detail-user">
+                        <a href="javascript:void(0)" class="fly-link">
+                            <cite>{$detail.uid|getUserName}</cite>
+                            <!--<i class="iconfont icon-renzheng" title="认证信息：{{ rows.user.approve }}"></i>
+                            <i class="layui-badge fly-badge-vip">VIP3</i>-->
+                        </a>
+                        <span>{$detail.addtime}</span>
+                    </div>
+                    <div class="detail-hits" id="LAY_jieAdmin" data-id="{$detail.id}">
+                        {if condition="$isAuthor==1 or ($userInfo.admin_id gt 0)"}
+                        <span class="layui-btn layui-btn-xs jie-admin" type="edit"><a href="{:url('index/forum/edittopic',['id' => $detail.id])}">编辑</a></span>
+                        {/if}
+                    </div>
+                </div>
+                <div class="detail-body photos">
+                    {$detail.content}
+                </div>
+            </div>
+            <div class="fly-panel detail-box" id="flyReply">
+                <fieldset class="layui-elem-field layui-field-title" style="text-align: center;">
+                    <legend>回帖</legend>
+                </fieldset>
+                <ul class="jieda" id="jieda">
+                    {foreach name="replay" item="v"}
+                    {if condition="$v.accept==1"}
+                    <li data-id="{$v.id}" class="jieda-daan">{else/}
+                    <li data-id="{$v.id}">
+                    {/if}
+                        <div class="detail-about detail-about-reply">
+                            <a class="fly-avatar" href="">
+                                <img src="{$v.uid|getAvatar|defaultAvatar}" alt="{$v.uid|getUserName}">
+                            </a>
+                            <div class="fly-detail-user">
+                                <a href="" class="fly-link">
+                                    <cite>{$v.uid|getUserName}</cite>
+                                    <!--<i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
+                                    <i class="layui-badge fly-badge-vip">VIP3</i>-->
+                                </a>
+                                {if condition="$isAuthor==1"}
+                                <span>(楼主)</span>
+                                {/if}
+                                {if condition="$userInfo.admin_id gt 0"}
+                                <span style="color:#5FB878">(教师)</span>
+                                {/if}
+                            </div>
+                            <div class="detail-hits">
+                                <span>{$v.addtime|get_last_time}</span>
+                            </div>
+                            {if condition="$v.accept==1"}
+                            <i class="iconfont icon-caina" title="最佳答案"></i>
+                            {/if}
+                        </div>
+                        <div class="detail-body jieda-body photos">
+                            {$v.content}
+                        </div>
+                        <div class="jieda-reply">
+                            <span class="jieda-zan zanok" type="zan">
+                                <i class="iconfont icon-zan"></i>
+                                <em>{$v.zan}</em>
+                            </span>
+                            <span type="reply">
+                                <i class="iconfont icon-svgmoban53"></i> 回复
+                            </span>
+                            {if condition="$isAuthor==1 or ($userInfo.admin_id gt 0)"}
+                            <div class="jieda-admin">
+                                <span type="edit">编辑</span>
+                                <span class="jiedaActive" type="del">删除</span>
+                                {if condition="!$detail.knot==1"}
+                                <span class="jieda-accept" type="accept">采纳</span>
+                                {/if}
+                             </div>
+                            {/if}
+                        </div>
+                    </li>
+                    {/foreach}
+              <!-- 无数据时 -->
+              <!-- <li class="fly-none">消灭零回复</li> -->
+                </ul>
+                {if condition="$islogin"}
+                <div class="layui-form layui-form-pane">
+                    <form action="{:url('index/forum/reply')}" method="post">
+                        <div class="layui-form-item layui-form-text">
+                            <a name="comment"></a>
+                            <div class="layui-input-block">
+                                <textarea id="L_content" name="content" required lay-verify="required" placeholder="请输入内容"  class="layui-textarea fly-editor" style="height: 150px;"></textarea>
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <input type="hidden" name="tid" value="{$detail.id}">
+                            <input type="hidden" name="__token__" value="{$Request.token}" />
+                            <button class="layui-btn" lay-filter="*" lay-submit>提交回复</button>
+                        </div>
+                    </form>
+                </div>
+                {/if}
+            </div>
+        </div>
+        <div class="layui-col-md4">
+            <dl class="fly-panel fly-list-one">
+                <dt class="fly-panel-title">本周热议</dt>
+                {foreach name="top10" item="v"}
+                <dd><a href="">{$v.name}</a><span><i class="iconfont icon-pinglun1"></i> {$v.replaycount}</span></dd>
+                {/foreach}
+            <!-- 无数据时 -->
+            <!--
+            <div class="fly-none">没有相关数据</div>
+            -->
+            </dl>
+            <div class="fly-panel">
+                <!--<div class="fly-panel-title">
+                    这里可作为广告区域
+                </div>
+                <div class="fly-panel-main">
+                    <a href="http://layim.layui.com/?from=fly" target="_blank" class="fly-zanzhu" time-limit="2017.09.25-2099.01.01" style="background-color: #5FB878;">LayIM 3.0 - layui 旗舰之作</a>
+                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+{/block}
+{block name="js"}
+<script src="__JS__/forum.base.js"></script>
+{/block}

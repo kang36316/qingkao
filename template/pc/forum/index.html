@@ -1,0 +1,125 @@
+{extend name="base" /}
+{block name="css"}<link rel="stylesheet" type="text/css" href="__CSS__/forum.css" media="all">{/block}
+{block name="body"}
+<div class="fly-panel fly-column">
+    <div class="layui-container">
+        <ul class="layui-clear">
+            {foreach name="plate" item="v"}
+            <li><a href="{:url('index/forum/index',['pid' => $v.id])}">{$v.name}</a></li>
+            {/foreach}
+            {if condition="$islogin"}
+            <!--<li class="layui-hide-xs layui-hide-sm layui-show-md-inline-block"><span class="fly-mid"></span></li>
+            <li class="layui-hide-xs layui-hide-sm layui-show-md-inline-block"><a href="">我的问答</a></li>
+            <li class="layui-hide-xs layui-hide-sm layui-show-md-inline-block"><a href="">我的收藏</a></li>-->
+            {/if}
+        </ul>
+        <div class="fly-column-right layui-hide-xs">
+            <span class="fly-search"><i class="layui-icon"></i></span>
+            <a href="{:url('index/forum/addtopic')}" class="layui-btn">我要提问</a>
+        </div>
+        <div class="layui-hide-sm layui-show-xs-block" style="margin-top: -10px; padding-bottom: 10px; text-align: center;">
+            <a href="{:url('index/forum/addtopic')}" class="layui-btn">我要提问</a>
+        </div>
+    </div>
+</div>
+<div class="layui-container">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md8">
+            <div class="fly-panel shadow">
+                <div class="fly-panel-title fly-filter">
+                    <a>置顶</a>
+                </div>
+                <ul class="fly-list">
+                    {foreach name="toptopic" item="v"}
+                    <li>
+                        <a href="javascript:void(0)" class="fly-avatar">
+                            <img class="layui-nav-img" src="{$v.uid|getAvatar|defaultAvatar}" alt="{$v.uid|getUserName}">
+                        </a>
+                        <h2>
+                            <a class="layui-badge">{$v.pid|getPlateName}</a>
+                            <a href="{:url('index/forum/detail',['id' => $v.id])}">{$v.name}</a>
+                        </h2>
+                        <div class="fly-list-info">
+                            <a href="user/home.html" link>
+                                <cite>{$v.uid|getUserName}</cite>
+                                <!--<i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
+                                <i class="layui-badge fly-badge-vip">VIP3</i>-->
+                            </a>
+                            <span>{$v.addtime|get_last_time}</span>
+                            <span class="fly-list-nums">
+                                <i class="iconfont icon-pinglun1" title="回复"></i>{$v.id|replaycount}
+                            </span>
+                        </div>
+                        <div class="fly-list-badge">
+                            {if condition="$v.istop==1"}
+                            <span class="layui-badge layui-bg-black">置顶</span>
+                            {/if}
+                            {if condition="$v.isessence==1"}
+                            <span class="layui-badge layui-bg-red">精帖</span>
+                            {/if}
+                        </div>
+                    </li>
+                    {/foreach}
+                </ul>
+            </div>
+            <div class="fly-panel shadow" style="padding-bottom:10px">
+                <ul class="fly-list">
+                    {foreach name="topic" item="v"}
+                    <li>
+                        <a href="javascript:void(0)" class="fly-avatar">
+                            <img class="layui-nav-img" src="{$v.uid|getAvatar|defaultAvatar}" alt="{$v.uid|getUserName}">
+                        </a>
+                        <h2>
+                            <a class="layui-badge">{$v.pid|getPlateName}</a>
+                            <a href="{:url('index/forum/detail',['id' => $v.id])}">{$v.name}</a>
+                        </h2>
+                        <div class="fly-list-info">
+                            <a href="javascript:void(0)" link>
+                                <cite>{$v.uid|getUserName}</cite>
+                                <!--<i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
+                                <i class="layui-badge fly-badge-vip">VIP3</i>-->
+                            </a>
+                            <span>{$v.addtime|get_last_time}</span>
+                            <span class="fly-list-nums">
+                                <i class="iconfont icon-pinglun1" title="回复"></i>{$v.id|replaycount}
+                            </span>
+                        </div>
+                        <div class="fly-list-badge">
+                            {if condition="$v.isessence==1"}
+                            <span class="layui-badge layui-bg-red">精帖</span>
+                            {/if}
+                        </div>
+                    </li>
+                    {/foreach}
+                </ul>
+                <div class="page">{$topic->render()}</div>
+            </div>
+        </div>
+        <div class="layui-col-md4">
+            <dl class="fly-panel fly-list-one">
+                <dt class="fly-panel-title">本周热议</dt>
+                {if condition="$top10"}
+                {foreach name="top10" item="v" }
+                <dd><a href="{:url('index/forum/detail',['id' => $v.id])}">{$v.name}</a><span><i class="iconfont icon-pinglun1"></i> {$v.replaycount}</span></dd>
+                {/foreach}
+                {else/}
+                <div class="fly-none">没有相关数据</div>
+                {/if}
+               
+            </dl>
+           <dl class="fly-panel fly-list-one">
+             <div class="fly-panel-main" style="padding: 13px 15px;">
+                 {foreach name="slide" item="vo" empty="$empty"}
+                  <a href="{$vo.url}" target="_blank" rel="nofollow" class="fly-zanzhu fly-zanzhu-img"  style="background: none;">
+                      <img src="{$vo.image}" alt="{$vo.description}">
+                  </a>
+                 {/foreach}
+              </div>
+            </dl>
+        </div>
+    </div>
+</div>
+{/block}
+{block name="js"}
+<script src="__JS__/forum.base.js"></script>
+{/block}

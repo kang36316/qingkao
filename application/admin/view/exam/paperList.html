@@ -1,0 +1,58 @@
+{extend name="base" /}
+{block name="body"}
+<div class="layui-card">
+    <div class="layui-card-header">
+        <form action="{:url('admin/exam/paperList')}" class="layui-form" method="get">
+            <div class="layui-form-item">
+                <div class="layui-input-inline">
+                    <select name="cid">
+                        <option value="">全部课程</option>
+                        {foreach name="course" item="v"}
+                        <option value="{$v.type}-{$v.id}" {if condition="input('cid') eq  $v.type.'-'.$v.id" }selected="selected"{/if}>{$v.title}</option>
+                        {/foreach}
+                    </select>
+                </div>
+                <div>
+                    <button class="layui-btn layui-btn-primary ajax-search"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="layui-card-body">
+        <table class="layui-table layui-form">
+            <thead>
+            <tr>
+                <th style="width:40px;">ID</th>
+                <th >考试名称</th>
+                <th  style="width:210px;">所属课程</th>
+                <th  style="width:100px;">用户名</th>
+                <th  style="width:60px;">状态</th>
+                <th  style="width:40px;">得分</th>
+                <th  style="width:140px;">做题时间</th>
+                <th  style="width:60px;">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {foreach name="list" item="v" empty="$empty"}
+            <tr>
+                <td>{$v.id}</td>
+                <td>{$v.eid|get_exam_title}</td>
+                <td>{$v.cid|getCourseName=###,$v.ctype}</td>
+                <td>{$v.uid|getUserName}</td>
+                <td>{$v.status|markstatus}</td>
+                <td>{$v.totalscores}分</td>
+                <td>{$v.addtime}</td>
+                <td>
+                    <div class="layui-btn-group mb0">
+                        <a href="{:url('admin/exam/mark', ['id'=>$v.id,'eid' => $v.eid,'uid'=>$v.uid])}" class="layui-btn layui-btn-xs ajax-iframe" data-width="800px" data-height="500px">
+                            <i class="layui-icon layui-icon-survey"></i></a>
+                    </div>
+                </td>
+            </tr>
+            {/foreach}
+            </tbody>
+        </table>
+        <div class="page">{$list->render()}</div>
+    </div>
+</div>
+{/block}

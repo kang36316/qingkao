@@ -1,0 +1,35 @@
+{extend name="base" /}
+{block name="css"}
+<link rel="stylesheet" type="text/css" href="/static/css/user.css" media="all">
+{/block}
+{block name="body"}
+<div class="layui-container mb50">
+    <div class="layui-row">
+        <div class="layui-col-md4 layui-col-md-offset4">
+            <fieldset class="layui-elem-field layui-field-title">
+                <legend>所有名师</legend>
+            </fieldset>
+        </div>
+        <div class="yxt_teacher-list">
+            <div class="layui-row layui-col-space20">
+                {foreach name="teacher" item="vo"}
+                <div class="layui-col-md3 ">
+                    <div class="yxt_teacher-item">
+                        <div class="teacher-pic" style="cursor: pointer;">
+                            <div class="img-box">
+                                <a href="{:url('index/teacher/centert',['id'=>$vo.id])}">
+                                    <img src="{$vo.uid|getAvatar|defaultAvatar}" alt="{$vo.username}" width="120" height="125">
+                                </a>
+                            </div>
+                            <p class="teacher-name">{$vo.username}</p>
+                        </div>
+                        <p>{$vo.sign}</p>
+                    </div>
+                </div>
+                {/foreach}
+            </div>
+        </div>
+    </div>
+</div>
+
+{/block}

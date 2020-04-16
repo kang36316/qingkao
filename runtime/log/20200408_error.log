@@ -1,0 +1,128 @@
+---------------------------------------------------------------
+[ 2020-04-08T14:37:58+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T14:38:02+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T14:38:04+08:00 ] 0.0.0.0 GET localhost/admin/exam/paperList
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T14:38:08+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T15:21:29+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T15:21:36+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-08T15:21:42+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-08T15:22:09+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-08T15:22:15+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T15:23:49+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T15:31:42+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index.html
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-08T15:33:12+08:00 ] 0.0.0.0 GET localhost/admin/course/liveindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T15:33:13+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T15:33:19+08:00 ] 0.0.0.0 GET localhost/admin/exam/paperList
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T15:33:22+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T16:02:22+08:00 ] 0.0.0.0 GET localhost/admin/course/liveindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T16:03:22+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-08T16:03:24+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-08T16:03:38+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-08T16:03:47+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-08T16:04:26+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-08T16:04:50+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-08T16:04:51+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-08T16:08:11+08:00 ] 0.0.0.0 GET localhost/admin/educloud/getliveroomlist
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-08T16:08:13+08:00 ] 0.0.0.0 GET localhost/admin/educloud/getplaybacklist
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-08T16:08:15+08:00 ] 0.0.0.0 GET localhost/admin/educloud/getliveroomlist
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-08T16:08:17+08:00 ] 0.0.0.0 GET localhost/admin/educloud/getplaybacklist
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-08T16:10:47+08:00 ] 0.0.0.0 GET localhost/admin/database/index
+[ error ] [2]fclose() expects parameter 1 to be resource, null given
+---------------------------------------------------------------
+[ 2020-04-08T16:11:08+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-08T16:11:25+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-08T16:11:27+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T16:11:35+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T16:23:15+08:00 ] 0.0.0.0 GET localhost/admin/course/liveindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-08T17:00:35+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-08T17:00:43+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page

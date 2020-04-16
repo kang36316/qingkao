@@ -1,0 +1,279 @@
+{extend name="iframe" /}
+{block name="body"}
+<form action="{:request()->url()}" class="layui-form mt30 mr50" method="post">
+    <div class="layui-form-item">
+        <label class="layui-form-label">科目</label>
+        <div class="layui-input-inline">
+            <select name="questionchapterid" lay-verify="required" id="chapterid" lay-filter="questionknowsid">
+                <option value="">全部分类</option>
+                {foreach name="$category" item="v" empty="$empty"}
+                <option value="{$v.id}" {if condition="isset($data) and $data.questionchapterid eq $v.id" }selected="selected"{/if}>{$v.cname}</option>
+                {/foreach}
+            </select>
+        </div>
+        <div class="layui-input-inline layui-hide" id="knowledgebox">
+            <select name="questionknowsid" id="knowledge" >
+                <option value="">知识点</option>
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">题型</label>
+        <div class="layui-input-inline">
+            <select name="questiontype" id="questiontype" lay-verify="required" lay-filter="questiontype">
+                <option value="">选择题型</option>
+                {foreach name="$type" item="v"}
+                <option value="{$v.id}－{$v.mark}" {if condition="isset($data) and $data['questiontype'] eq $v.id" }selected="selected"{/if}>{$v.type_name}</option>
+                {/foreach}
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">题干</label>
+        <div class="layui-input-block">
+            <textarea class="ckeditor" lay-verify="required" name="question" id="question">{$data.question|default=""}</textarea>
+        </div>
+    </div>
+    <div class="layui-form-item layui-hide" id="questionselectbox">
+        <label class="layui-form-label">选项</label>
+        <div class="layui-input-block">
+            <textarea class="ckeditor" name="questionselect" id="questionselect">{$data.questionselect|default=""}</textarea>
+        </div>
+    </div>
+    <div class="layui-form-item layui-hide" id="questionselectnumberbox">
+        <label class="layui-form-label">选项数量</label>
+        <div class="layui-input-inline">
+            <select name="questionselectnumber">
+                <option value="4" {if condition="isset($data) and $data['questionselectnumber'] eq 4" }selected="selected"{/if}>4</option>
+                <option value="1" {if condition="isset($data) and $data['questionselectnumber'] eq 1" }selected="selected"{/if}>1</option>
+                <option value="2" {if condition="isset($data) and $data['questionselectnumber'] eq 2" }selected="selected"{/if}>2</option>
+                <option value="3" {if condition="isset($data) and $data['questionselectnumber'] eq 3" }selected="selected"{/if}>3</option>
+                <option value="5" {if condition="isset($data) and $data['questionselectnumber'] eq 5" }selected="selected"{/if}>5</option>
+                <option value="6" {if condition="isset($data) and $data['questionselectnumber'] eq 6" }selected="selected"{/if}>6</option>
+                <option value="7" {if condition="isset($data) and $data['questionselectnumber'] eq 7" }selected="selected"{/if}>7</option>
+                <option value="8" {if condition="isset($data) and $data['questionselectnumber'] eq 8" }selected="selected"{/if}>8</option>
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item layui-hide" id="answerbox">
+        <label class="layui-form-label">参考答案</label>
+        <div class="layui-input-block layui-hide" id="answerbox_1">
+            <input type="radio" {if condition="isset($data) and $data['questionanswer'] eq A" }checked{/if} name="questionanswerSingleSelect" value="A" title="A">
+            <input type="radio" {if condition="isset($data) and $data['questionanswer'] eq B" }checked{/if} name="questionanswerSingleSelect" value="B" title="B">
+            <input type="radio" {if condition="isset($data) and $data['questionanswer'] eq C" }checked{/if} name="questionanswerSingleSelect" value="C" title="C">
+            <input type="radio" {if condition="isset($data) and $data['questionanswer'] eq D" }checked{/if} name="questionanswerSingleSelect" value="D" title="D">
+            <input type="radio" {if condition="isset($data) and $data['questionanswer'] eq E" }checked{/if} name="questionanswerSingleSelect" value="E" title="E">
+            <input type="radio" {if condition="isset($data) and $data['questionanswer'] eq F" }checked{/if} name="questionanswerSingleSelect" value="F" title="F">
+            <input type="radio" {if condition="isset($data) and $data['questionanswer'] eq G" }checked{/if} name="questionanswerSingleSelect" value="G" title="G">
+            <input type="radio" {if condition="isset($data) and $data['questionanswer'] eq H" }checked{/if} name="questionanswerSingleSelect" value="H" title="H">
+        </div>
+        <div class="layui-input-block layui-hide" id="answerbox_2">
+            <input type="checkbox" {if condition="isset($data) and strstr($data['questionanswer'] ,'A')" }checked="checked"{/if} name="questionanswerMultiSelect[]" value="A" title="A">
+            <input type="checkbox" {if condition="isset($data) and strstr($data['questionanswer'] ,'B')" }checked="checked"{/if} name="questionanswerMultiSelect[]" value="B" title="B">
+            <input type="checkbox" {if condition="isset($data) and strstr($data['questionanswer'] ,'C')" }checked="checked"{/if} name="questionanswerMultiSelect[]" value="C" title="C">
+            <input type="checkbox" {if condition="isset($data) and strstr($data['questionanswer'] ,'D')" }checked="checked"{/if} name="questionanswerMultiSelect[]" value="D" title="D">
+            <input type="checkbox" {if condition="isset($data) and strstr($data['questionanswer'] ,'E')" }checked="checked"{/if} name="questionanswerMultiSelect[]" value="E" title="E">
+            <input type="checkbox" {if condition="isset($data) and strstr($data['questionanswer'] ,'F')" }checked="checked"{/if} name="questionanswerMultiSelect[]" value="F" title="F">
+            <input type="checkbox" {if condition="isset($data) and strstr($data['questionanswer'] ,'G')" }checked="checked"{/if} name="questionanswerMultiSelect[]" value="G" title="G">
+            <input type="checkbox" {if condition="isset($data) and strstr($data['questionanswer'] ,'H')" }checked="checked"{/if} name="questionanswerMultiSelect[]" value="H" title="H">
+        </div>
+        <div class="layui-input-block layui-hide" id="answerbox_3">
+            <input type="radio" name="questionanswerTrueOrfalse" value="1" title="对">
+            <input type="radio" name="questionanswerTrueOrfalse" value="0" title="错">
+        </div>
+        <div class="layui-input-block layui-hide" id="answerbox_4">
+            <textarea class="ckeditor" name="questionanswerFillInBlanks" id="questionanswer4"></textarea>
+        </div>
+        <div class="layui-input-block layui-hide" id="answerbox_5">
+            <textarea class="ckeditor" name="questionanswerShortAnswer" id="questionanswer5"></textarea>
+        </div>
+    </div>
+    <div class="layui-form-item" id="questiondescribe_box">
+        <label class="layui-form-label">试题解析</label>
+        <div class="layui-input-block">
+            <textarea class="ckeditor" name="questiondescribe" id="questiondescribe">{$data.questiondescribe|default=""}</textarea>
+        </div>
+    </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">试题难度</label>
+        <div class="layui-input-block">
+            <select name="questionlevel">
+                <option value="1" {if condition="isset($data) and $data['questionlevel'] eq 1" }selected="selected"{/if}>易</option>
+                <option value="2" {if condition="isset($data) and $data['questionlevel'] eq 2" }selected="selected"{/if}>中</option>
+                <option value="3" {if condition="isset($data) and $data['questionlevel'] eq 3" }selected="selected"{/if}> 难</option>
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item mt30">
+        <div class="layui-input-block">
+            <button id="other-btn" class="layui-btn" lay-filter="i" lay-submit="">保存</button>
+            <button id="timao-btn" class="layui-btn layui-hide" lay-filter="*" lay-submit="">保存子题</button>
+            <button class="layui-btn layui-btn-primary" type="reset">重置</button>
+        </div>
+    </div>
+    <input type="hidden" name="questioncreatetime" value="{$addtime}">
+</form>
+{/block}
+{block name="js"}
+<script src="__LIBS__/ueditor/ueditor.config.js"></script>
+<script src="__LIBS__/ueditor/ueditor.all.js"></script>
+<script src="__LIBS__/ueditor/lang/zh-cn/zh-cn.js"></script>
+<script src="__LIBS__/ueditor/kityformula-plugin/addKityFormulaDialog.js"></script>
+<script src="__LIBS__/ueditor/kityformula-plugin/getKfContent.js"></script>
+<script src="__LIBS__/ueditor/kityformula-plugin/defaultFilterFix.js"></script>
+<script>
+    UE.getEditor('question',{
+        initialFrameHeight:100,
+        elementPathEnabled:false,
+        wordCount:false,
+        scaleEnabled:false,
+        toolbars: [['fullscreen', 'source','bold','fontsize', 'italic', 'underline', 'fontborder', 'insertaudio',  'insertvideo',  'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist']],
+        labelMap: {'anchor' : '', 'vaecolor' : '自定义字体颜色', 'insertaudio' : '音频',}
+    });
+</script>
+<script>
+    UE.getEditor('questiondescribe',{
+        initialFrameHeight:100,
+        elementPathEnabled:false,
+        wordCount:false,
+        scaleEnabled:false,
+        toolbars: [['fullscreen', 'source','bold','fontsize', 'italic', 'underline', 'fontborder','strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist']],
+    });
+</script>
+<script>
+    $(function(){
+        var questiontype=$('#questiontype option:selected').val();
+        if(questiontype.length >0){
+            changeType(questiontype);
+        }
+    })
+    layui.use('form', function() {
+        form.on('select(questiontype)', function (data) {
+            var typemark=data.value;
+            changeType(typemark);
+        });
+        form.on('select(questionknowsid)', function(data){
+            var parentId=$("#chapterid").val();
+            $('#knowledgebox').addClass('layui-hide');
+            if(null!= parentId && ""!=parentId){
+                $.getJSON("/admin/course/ajaxGetKnowledge",{id:parentId},function(myJSON){
+                    var options="";
+                    if(myJSON.length>0){
+                        $('#knowledgebox').removeClass('layui-hide');
+                        options+="<option value=''>==知识点==</option>";
+                        for(var i=0;i<myJSON.length;i++){
+                            options+="<option value="+myJSON[i].id+">"+myJSON[i].title+"</option>";
+                        }
+                        $("#knowledge").html(options);
+                        form.render('select');
+                    }
+                }
+            )}
+        })
+    })
+    function changeType(typemark){
+        if (typemark.indexOf("SingleSelect")>0) {
+            $('#questionselectbox').removeClass('layui-hide');
+            $('#questionselectnumberbox').removeClass('layui-hide');
+            $('#answerbox').removeClass('layui-hide');
+            $('#answerbox_1').removeClass('layui-hide');
+            $('#other-btn').removeClass('layui-hide');
+            $('#timao-btn').addClass('layui-hide');
+            $('#answerbox_2').addClass('layui-hide');
+            $('#answerbox_3').addClass('layui-hide');
+            $('#answerbox_4').addClass('layui-hide');
+            $('#answerbox_5').addClass('layui-hide');
+            UE.getEditor('questionselect', {
+                initialFrameHeight: 100,
+                elementPathEnabled: false,
+                wordCount: false,
+                scaleEnabled: false,
+                toolbars: [['fullscreen', 'source', 'bold', 'fontsize', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist']]
+            });
+        }
+        if (typemark.indexOf("MultiSelect")>0) {
+            $('#questionselectbox').removeClass('layui-hide');
+            $('#questionselectnumberbox').removeClass('layui-hide');
+            $('#answerbox').removeClass('layui-hide');
+            $('#other-btn').removeClass('layui-hide');
+            $('#timao-btn').addClass('layui-hide');
+            $('#answerbox_1').addClass('layui-hide');
+            $('#answerbox_2').removeClass('layui-hide');
+            $('#answerbox_3').addClass('layui-hide');
+            $('#answerbox_4').addClass('layui-hide');
+            $('#answerbox_5').addClass('layui-hide');
+            UE.getEditor('questionselect', {
+                initialFrameHeight: 100,
+                elementPathEnabled: false,
+                wordCount: false,
+                scaleEnabled: false,
+                toolbars: [['fullscreen', 'source', 'bold', 'fontsize', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist']]
+            });
+        }
+        if (typemark.indexOf("FillInBlanks")>0) {
+            $('#questionselectbox').addClass('layui-hide');
+            $('#questionselectnumberbox').addClass('layui-hide');
+            $('#answerbox').removeClass('layui-hide');
+            $('#other-btn').removeClass('layui-hide');
+            $('#timao-btn').addClass('layui-hide');
+            $('#answerbox_1').addClass('layui-hide');
+            $('#answerbox_2').addClass('layui-hide');
+            $('#answerbox_3').addClass('layui-hide');
+            $('#answerbox_4').removeClass('layui-hide');
+            $('#answerbox_5').addClass('layui-hide');
+            UE.getEditor('questionanswer4', {
+                initialFrameHeight: 100,
+                elementPathEnabled: false,
+                wordCount: false,
+                scaleEnabled: false,
+                toolbars: [['fullscreen', 'source', 'bold', 'fontsize', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist']]
+            });
+        }
+        if (typemark.indexOf("TrueOrfalse")>0) {
+            $('#questionselectbox').addClass('layui-hide');
+            $('#questionselectnumberbox').addClass('layui-hide');
+            $('#answerbox').removeClass('layui-hide');
+            $('#other-btn').removeClass('layui-hide');
+            $('#timao-btn').addClass('layui-hide');
+            $('#answerbox_1').addClass('layui-hide');
+            $('#answerbox_2').addClass('layui-hide');
+            $('#answerbox_3').removeClass('layui-hide');
+            $('#answerbox_4').addClass('layui-hide');
+            $('#answerbox_5').addClass('layui-hide');
+        }
+        if (typemark.indexOf("ShortAnswer")>0) {
+            $('#questionselectbox').addClass('layui-hide');
+            $('#questionselectnumberbox').addClass('layui-hide');
+            $('#answerbox').removeClass('layui-hide');
+            $('#other-btn').removeClass('layui-hide');
+            $('#timao-btn').addClass('layui-hide');
+            $('#answerbox_1').addClass('layui-hide');
+            $('#answerbox_2').addClass('layui-hide');
+            $('#answerbox_3').addClass('layui-hide');
+            $('#answerbox_4').addClass('layui-hide');
+            $('#answerbox_5').removeClass('layui-hide');
+            UE.getEditor('questionanswer5', {
+                initialFrameHeight: 100,
+                elementPathEnabled: false,
+                wordCount: false,
+                scaleEnabled: false,
+                toolbars: [['fullscreen', 'source', 'bold', 'fontsize', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist']]
+            });
+        }
+        if (typemark.indexOf("TiMao")>0) {
+            $('#questionselectbox').addClass('layui-hide');
+            $('#other-btn').addClass('layui-hide')
+            $('#timao-btn').removeClass('layui-hide');
+            $('#questionselectnumberbox').addClass('layui-hide');
+            $('#questiondescribe_box').addClass('layui-hide');
+            $('#answerbox').addClass('layui-hide');
+            $('#answerbox_1').addClass('layui-hide');
+            $('#answerbox_2').addClass('layui-hide');
+            $('#answerbox_3').removeClass('layui-hide');
+            $('#answerbox_4').addClass('layui-hide');
+            $('#answerbox_5').addClass('layui-hide');
+        }
+    }
+</script>
+{/block}

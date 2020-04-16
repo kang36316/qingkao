@@ -1,0 +1,5 @@
+<?php
+//000000000000
+ exit();?>
+a:2:{s:7:"website";a:11:{s:4:"logo";s:0:"";s:9:"site_name";s:24:"清考在线教育平台";s:10:"site_title";s:72:"清考在线教育平台，最具性价比的成人自考教育平台。";s:13:"site_keywords";s:93:"清考在线教育平台，网校系统，在线教学，网校，翻转课堂，成人自考";s:16:"site_description";s:210:"清考在线教育平台是专业安全的网校系统，一站式在线学习辅导解决方案，按需购买，自由扩容。e-learning系统，网校开发，网校建设，网校搭建就选易校通。
+";s:14:"site_copyright";s:24:"清考在线教育软件";s:8:"site_icp";s:20:"豫ICP备16024135号";s:9:"site_code";s:336:"<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1277630122'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/stat.php%3Fid%3D1277630122%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>";s:6:"weixin";s:0:"";s:5:"about";s:0:"";s:4:"icon";s:0:"";}s:7:"contact";a:4:{s:7:"company";s:12:"清考教育";s:7:"address";s:0:"";s:3:"tel";s:0:"";s:5:"email";s:0:"";}}

@@ -1,0 +1,36 @@
+{extend name="iframe" /}
+{block name="body"}
+<div class="layui-card">
+    <div class="layui-card-body">
+        <div class="layui-btn-group">
+            <a href="{:url('admin/classroom/import',['cid'=>$cid])}" class="layui-btn ajax-iframe"  data-width="600px" data-height="300px"><i class="fa fa-plus-circle"></i> 批量导入</a>
+            <a href="{:url('admin/classroom/export',['cid'=>$cid])}" class="layui-btn layui-btn-primary"><i class="fa fa-file-excel-o"></i> 导出学员</a>
+        </div>
+        <table class="layui-table layui-form">
+            <thead>
+            <tr>
+                <th style="width:180px;">学员姓名</th>
+                <th >学习进度</th>
+                <th style="width:40px;">操作</th>
+            </tr>
+            </thead>
+            <tbody id="material-list">
+            {foreach name="list" item="v" empty="$empty"}
+            <tr>
+                <th >{$v.uid|getUserName}</th>
+                <th ><div class="layui-progress" lay-showPercent="yes">
+                         <div class="layui-progress-bar layui-bg-green" lay-percent="{$v.progress}%"></div>
+                    </div>
+                </th>
+                <th >
+                    <div class="layui-btn-group mb0">
+                        <a href="{:url('admin/classroom/detach', ['uid' => $v.uid,'cid'=>$cid])}" class="layui-btn layui-btn-xs layui-btn-danger ajax-delete"> <i class="layui-icon">&#xe640;</i></a>
+                    </div>
+                </th>
+            </tr>
+            {/foreach}
+            </tbody>
+        </table>
+    </div>
+</div>
+{/block}

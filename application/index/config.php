@@ -1,0 +1,1 @@
+<?php$tpl = request()->isMobile() ? 'wap' : 'pc';return [    'template'         => [        'view_path' => '../template/' . $tpl . '/',    ],];
