@@ -1,4 +1,55 @@
 ---------------------------------------------------------------
-[ 2020-04-16T08:37:48+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
-[ error ] [8]未定义数组索引: page
-[ error ] [8]未定义数组索引: page
+[ 2020-04-16T20:08:43+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-16T20:09:29+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-16T20:09:54+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-16T20:10:07+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-16T20:10:19+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-16T20:10:33+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-16T20:10:54+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-16T20:14:55+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-16T20:16:08+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-16T20:16:10+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-16T20:22:03+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义变量: authoInfo[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-16T20:22:05+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义变量: authoInfo[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-16T20:22:40+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-16T20:25:16+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-16T20:25:18+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-16T20:26:24+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-16T20:26:27+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]

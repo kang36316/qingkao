@@ -1,0 +1,119 @@
+---------------------------------------------------------------
+[ 2020-04-17T08:41:13+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[运行时间：0.391040s] [吞吐率：2.56req/s] [内存消耗：7,381.49kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\qingkaoedu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3m3kd49ojj7sqqge2dvpqgc3v4',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-HK;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/admin/course/videoadd.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.008383s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\qingkaoedu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\qingkaoedu\public/../application/admin\view\index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'navbar',
+  2 => 'breadcrumb',
+  3 => 'empty',
+  4 => 'addtime',
+  5 => 'index',
+  6 => 'server',
+  7 => 'teacherInfo',
+  8 => 'url',
+  9 => 'authoInfo',
+  10 => 'version',
+  11 => 'lastVersion',
+  12 => 'tixianList',
+  13 => 'profit',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-17T08:41:33+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[运行时间：0.149254s] [吞吐率：6.70req/s] [内存消耗：7,381.83kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\qingkaoedu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3m3kd49ojj7sqqge2dvpqgc3v4',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-HK;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/admin/course/videoadd.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run Closure @action_begin [ RunTime:0.002032s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\qingkaoedu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\qingkaoedu\public/../application/admin\view\index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'navbar',
+  2 => 'breadcrumb',
+  3 => 'empty',
+  4 => 'addtime',
+  5 => 'index',
+  6 => 'server',
+  7 => 'teacherInfo',
+  8 => 'url',
+  9 => 'authoInfo',
+  10 => 'version',
+  11 => 'lastVersion',
+  12 => 'tixianList',
+  13 => 'profit',
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:86:"D:\phpstudy_pro\WWW\qingkaoedu\public/../application/admin\view\course\videoindex.html";i:1560577638;s:63:"D:\phpstudy_pro\WWW\qingkaoedu\application\admin\view\base.html";i:1586589106;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:86:"D:\phpstudy_pro\WWW\qingkaoedu\public/../application/admin\view\course\videoindex.html";i:1560577638;s:63:"D:\phpstudy_pro\WWW\qingkaoedu\application\admin\view\base.html";i:1586589108;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -80,7 +80,7 @@
                      <select name="cid">
                         <option value="">全部分类</option>
                         <?php if(is_array($courseCategory) || $courseCategory instanceof \think\Collection || $courseCategory instanceof \think\Paginator): if( count($courseCategory)==0 ) : echo "" ;else: foreach($courseCategory as $key=>$v): ?>
-                        <option value="<?php echo $v['id']; ?>" <?php if(input('cid') == $v['id']): ?>selected="selected"<?php endif; ?>><?php if($v['level'] != '1'): ?>|<?php $__FOR_START_584033037__=1;$__FOR_END_584033037__=$v['level'];for($i=$__FOR_START_584033037__;$i < $__FOR_END_584033037__;$i+=1){ ?> &#45;&#45;&#45;&#45;<?php } endif; ?> <?php echo $v['category_name']; ?></option>
+                        <option value="<?php echo $v['id']; ?>" <?php if(input('cid') == $v['id']): ?>selected="selected"<?php endif; ?>><?php if($v['level'] != '1'): ?>|<?php $__FOR_START_1305617770__=1;$__FOR_END_1305617770__=$v['level'];for($i=$__FOR_START_1305617770__;$i < $__FOR_END_1305617770__;$i+=1){ ?> &#45;&#45;&#45;&#45;<?php } endif; ?> <?php echo $v['category_name']; ?></option>
                         <?php endforeach; endif; else: echo "" ;endif; ?>
                     </select>
                 </div>

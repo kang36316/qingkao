@@ -1,0 +1,40 @@
+---------------------------------------------------------------
+[ 2020-04-17T08:41:13+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-17T08:41:33+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
+---------------------------------------------------------------
+[ 2020-04-17T08:48:06+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-17T08:48:57+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-17T14:10:21+08:00 ] 0.0.0.0 GET localhost/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-17T14:10:37+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-17T14:17:49+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-17T14:17:51+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-17T15:31:28+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videodel
+[ error ] [8]未定义变量: data
+[ error ] [2]Invalid argument supplied for foreach()
+---------------------------------------------------------------
+[ 2020-04-17T15:31:31+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page

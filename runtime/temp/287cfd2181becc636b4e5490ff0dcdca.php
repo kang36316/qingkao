@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:83:"D:\phpstudy_pro\WWW\qingkaoedu\public/../application/admin\view\config\setting.html";i:1581221422;s:63:"D:\phpstudy_pro\WWW\qingkaoedu\application\admin\view\base.html";i:1586589106;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:83:"D:\phpstudy_pro\WWW\qingkaoedu\public/../application/admin\view\config\setting.html";i:1581221422;s:63:"D:\phpstudy_pro\WWW\qingkaoedu\application\admin\view\base.html";i:1586589108;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -91,11 +91,11 @@
                                 <textarea name="<?php echo hashids_encode($config['id']); ?>" placeholder="请输入<?php echo $config['title']; ?>" class="layui-textarea"><?php echo (isset($config['value']) && ($config['value'] !== '')?$config['value']:''); ?></textarea>
                                 <?php endif; if($config['type'] == 'select'): ?>
                                 <select name="<?php echo hashids_encode($config['id']); ?>">
-                                    <?php $_5e98296bf073e=parse_attr($config['options']); if(is_array($_5e98296bf073e) || $_5e98296bf073e instanceof \think\Collection || $_5e98296bf073e instanceof \think\Paginator): if( count($_5e98296bf073e)==0 ) : echo "" ;else: foreach($_5e98296bf073e as $i=>$j): ?>
+                                    <?php $_5e984b3aad542=parse_attr($config['options']); if(is_array($_5e984b3aad542) || $_5e984b3aad542 instanceof \think\Collection || $_5e984b3aad542 instanceof \think\Paginator): if( count($_5e984b3aad542)==0 ) : echo "" ;else: foreach($_5e984b3aad542 as $i=>$j): ?>
                                     <option value="<?php echo $i; ?>" <?php if($config['value'] == $i): ?>selected="selected"<?php endif; ?>><?php echo $j; ?></option>
                                     <?php endforeach; endif; else: echo "" ;endif; ?>
                                 </select>
-                                <?php endif; if($config['type'] == 'radio'): $_5e98296bf071d=parse_attr($config['options']); if(is_array($_5e98296bf071d) || $_5e98296bf071d instanceof \think\Collection || $_5e98296bf071d instanceof \think\Paginator): if( count($_5e98296bf071d)==0 ) : echo "" ;else: foreach($_5e98296bf071d as $i=>$j): ?>
+                                <?php endif; if($config['type'] == 'radio'): $_5e984b3aad520=parse_attr($config['options']); if(is_array($_5e984b3aad520) || $_5e984b3aad520 instanceof \think\Collection || $_5e984b3aad520 instanceof \think\Paginator): if( count($_5e984b3aad520)==0 ) : echo "" ;else: foreach($_5e984b3aad520 as $i=>$j): ?>
                                 <input type="radio" name="<?php echo hashids_encode($config['id']); ?>" value="<?php echo $i; ?>" title="<?php echo $j; ?>" <?php if($config['value'] == $i): ?>checked="checked"<?php endif; ?>>
                                 <?php endforeach; endif; else: echo "" ;endif; endif; if($config['type'] == 'image'): ?>
                                 <input type="text" name="<?php echo hashids_encode($config['id']); ?>" value="<?php echo (isset($config['value']) && ($config['value'] !== '')?$config['value']:''); ?>" autocomplete="off" placeholder="请上传<?php echo $config['title']; ?>" class="layui-input">
