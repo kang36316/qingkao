@@ -5,8 +5,6 @@
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/5ini99/think-addons" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/VodUploadSDK-PHP/samples" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/VodUploadSDK-PHP/voduploadsdk" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/adbario/php-dot-notation" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/aferrandini/phpqrcode" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/alibabacloud/client" />

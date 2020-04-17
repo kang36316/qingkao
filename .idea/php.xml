@@ -31,8 +31,6 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/sns_auth-master/src" />
-      <path value="$PROJECT_DIR$/vendor/VodUploadSDK-PHP/samples" />
-      <path value="$PROJECT_DIR$/vendor/VodUploadSDK-PHP/voduploadsdk" />
       <path value="$PROJECT_DIR$/vendor/phpqrcode/bindings" />
       <path value="$PROJECT_DIR$/vendor/phpqrcode/cache" />
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
