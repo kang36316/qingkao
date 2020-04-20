@@ -41,6 +41,75 @@ class Educloud extends AdminBase{
         }
         return $this->fetch('index');
     }
+    public function testconnect(){
+	$config = config('aliyun_oss');
+	$bucket = $config['bucket'];
+//	var_dump($config);
+     $ossClient = new OssClient($config['accessKeyId'], $config['accessKeySecret'], $config['endpoint']);
+     $nextMarker = '';
+
+		while (true) {
+		    try {
+		        $options = array(
+		            'delimiter' => '/',
+		            // 'prefix' => 'dir/',
+		            'marker' => $nextMarker,
+		        );
+		        $listObjectInfo = $ossClient->listObjects($bucket, $options);
+		    } catch (OssException $e) {
+		        printf(__FUNCTION__ . ": FAILED\n");
+		        printf($e->getMessage() . "\n");
+		        return;
+		    }
+		    // 得到nextMarker，从上一次listObjects读到的最后一个文件的下一个文件开始继续获取文件列表。
+		    $nextMarker = $listObjectInfo->getNextMarker();
+		    $listObject = $listObjectInfo->getObjectList();
+		    $listPrefix = $listObjectInfo->getPrefixList();
+			// var_dump($listObject);
+		//	var_dump($listPrefix);
+			//die;
+		    if (!empty($listObject)) {
+		        print("objectList:\n");
+		        foreach ($listObject as $objectInfo) {
+		            print($objectInfo->getKey() . "\n");
+		        }
+		    }
+		    if (!empty($listPrefix)) {
+		        print("prefixList: \n");
+		        foreach ($listPrefix as $prefixInfo) {
+		            print($prefixInfo->getPrefix() . "\n");
+		        }
+		    }
+		    if ($listObjectInfo->getIsTruncated() !== "true") {
+		       break;
+		    }
+		}
+     return $this->fetch('testconnect');
+    }
+    
+    // 测试oss视频文件上传
+	public function uploadVideo()
+		{
+		     //上传视频到阿里云OSS
+		     $file = $_FILES['file'];
+		     $name = $file['name'];
+		     $format = strrchr($name, '.');
+		     $fileName = uniqid() . $format;
+		     //获取配置
+		     $config = config('aliyun_oss');
+		     $OssClient = new OssClient($config['accessKeyId'], $config['accessKeySecret'], $config['endpoint']);
+		     $uploadToAliyunOss = $OssClient->uploadFile($config['bucket'], $fileName, $file['tmp_name']);
+		
+		     if ($uploadToAliyunOss) {
+		     	 // 上传成功返回路径
+		     	 var_dump($uploadToAliyunOss['info']['url']);
+		         return json(['videoUrl'=> $config['cdn'].strrchr($uploadToAliyunOss['info']['url'], '/')]);
+		     } else {
+		     	// 上传失败，打印错误信息
+		     	halt($uploadToAliyunOss);
+		     }
+		      return $this->fetch('testconnect');
+		}
     /**
      * 绑定阿里云直播账户
      */

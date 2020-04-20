@@ -1,0 +1,212 @@
+---------------------------------------------------------------
+[ 2020-04-18T00:13:04+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [0]语法解析错误: syntax error, unexpected '$OssClient' (T_VARIABLE)
+---------------------------------------------------------------
+[ 2020-04-18T00:13:30+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [0]access key id is empty
+---------------------------------------------------------------
+[ 2020-04-18T00:18:44+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [0]语法解析错误: syntax error, unexpected '}'
+---------------------------------------------------------------
+[ 2020-04-18T00:22:05+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [0]语法解析错误: syntax error, unexpected 'public' (T_PUBLIC)
+---------------------------------------------------------------
+[ 2020-04-18T00:23:26+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [0]语法解析错误: syntax error, unexpected 'public' (T_PUBLIC)
+---------------------------------------------------------------
+[ 2020-04-18T00:23:46+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: OssClient
+[ error ] [0]致命错误: Call to a member function listBuckets() on null
+---------------------------------------------------------------
+[ 2020-04-18T00:24:17+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: OssClient
+[ error ] [0]致命错误: Call to a member function listBuckets() on null
+---------------------------------------------------------------
+[ 2020-04-18T00:24:22+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: OssClient
+[ error ] [0]致命错误: Call to a member function listBuckets() on null
+---------------------------------------------------------------
+[ 2020-04-18T00:24:29+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: OssClient
+[ error ] [0]致命错误: Call to a member function listBuckets() on null
+---------------------------------------------------------------
+[ 2020-04-18T00:24:30+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: OssClient
+[ error ] [0]致命错误: Call to a member function listBuckets() on null
+---------------------------------------------------------------
+[ 2020-04-18T00:24:31+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: OssClient
+[ error ] [0]致命错误: Call to a member function listBuckets() on null
+---------------------------------------------------------------
+[ 2020-04-18T00:25:11+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: bucket
+---------------------------------------------------------------
+[ 2020-04-18T00:26:17+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: bucket
+---------------------------------------------------------------
+[ 2020-04-18T00:26:18+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: bucket
+---------------------------------------------------------------
+[ 2020-04-18T00:26:19+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: bucket
+---------------------------------------------------------------
+[ 2020-04-18T00:27:17+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: bucket
+---------------------------------------------------------------
+[ 2020-04-18T00:27:19+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: bucket
+---------------------------------------------------------------
+[ 2020-04-18T00:27:20+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: bucket
+---------------------------------------------------------------
+[ 2020-04-18T00:27:20+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: bucket
+---------------------------------------------------------------
+[ 2020-04-18T00:27:21+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: bucket
+---------------------------------------------------------------
+[ 2020-04-18T00:30:17+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: bucket
+---------------------------------------------------------------
+[ 2020-04-18T00:30:17+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: bucket
+---------------------------------------------------------------
+[ 2020-04-18T00:30:18+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: bucket
+---------------------------------------------------------------
+[ 2020-04-18T00:42:02+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: accessKeyId
+[ error ] [8]未定义变量: accessKeySecret
+[ error ] [8]未定义变量: endpoint
+---------------------------------------------------------------
+[ 2020-04-18T00:42:06+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: accessKeyId
+[ error ] [8]未定义变量: accessKeySecret
+[ error ] [8]未定义变量: endpoint
+---------------------------------------------------------------
+[ 2020-04-18T00:42:51+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [8]未定义变量: accessKeyId
+[ error ] [8]未定义变量: accessKeySecret
+[ error ] [8]未定义变量: endpoint
+---------------------------------------------------------------
+[ 2020-04-18T00:45:49+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/testconnect
+[ error ] [0]语法解析错误: syntax error, unexpected '$ossClient' (T_VARIABLE)
+---------------------------------------------------------------
+[ 2020-04-18T00:47:00+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-18T00:47:08+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-18T00:48:03+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-18T00:48:22+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-18T04:53:59+08:00 ] 47.103.14.177 GET video.heihuu.com/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T09:20:08+08:00 ] 120.194.35.178 GET video.heihuu.com/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T09:20:14+08:00 ] 120.194.35.178 GET video.heihuu.com/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-18T09:20:17+08:00 ] 120.194.35.178 GET video.heihuu.com/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-18T09:21:59+08:00 ] 120.194.35.178 GET video.heihuu.com/admin/course/videoindex
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T09:22:01+08:00 ] 120.194.35.178 GET video.heihuu.com/admin/course/videoadmin
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T11:15:00+08:00 ] 120.194.35.178 GET video.heihuu.com/admin/course/videoadmin
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T11:15:05+08:00 ] 120.194.35.178 GET video.heihuu.com/admin/course/videoadmin
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T11:15:15+08:00 ] 120.194.35.178 GET video.heihuu.com/admin/course/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-18T20:41:06+08:00 ] 47.101.192.16 GET video.heihuu.com/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T23:45:56+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-18T23:50:44+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videoindex
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T23:51:36+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videoadmin
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T23:51:56+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-18T23:52:01+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-18T23:53:50+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-18T23:54:02+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videoadmin
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T23:54:05+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videoadmin
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T23:54:15+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videoadmin
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T23:54:16+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videoadmin
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T23:54:19+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videoindex
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T23:54:23+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videoindex
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T23:54:30+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videoindex
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T23:55:29+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videoindex
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T23:55:31+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videoadmin
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-18T23:55:36+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/course/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v

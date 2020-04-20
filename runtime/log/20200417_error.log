@@ -1,48 +1,77 @@
 ---------------------------------------------------------------
-[ 2020-04-17T08:41:13+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
-[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
----------------------------------------------------------------
-[ 2020-04-17T08:41:33+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
-[ error ] [8]未定义数组索引: authorcode[D:\phpstudy_pro\WWW\qingkaoedu\runtime\temp\831723f2ec376a980e2f710643859ef8.php:191]
----------------------------------------------------------------
-[ 2020-04-17T08:48:06+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
-[ error ] [8]未定义数组索引: authorcode
-[ error ] [8]未定义数组索引: endtime
-[ error ] [8]未定义数组索引: authorcode
----------------------------------------------------------------
-[ 2020-04-17T08:48:57+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
-[ error ] [8]未定义数组索引: page
-[ error ] [8]未定义数组索引: page
----------------------------------------------------------------
-[ 2020-04-17T14:10:21+08:00 ] 0.0.0.0 GET localhost/
+[ 2020-04-17T05:11:12+08:00 ] 47.101.199.29 GET video.heihuu.com/
 [ error ] [2]count(): Parameter must be an array or an object that implements Countable
 ---------------------------------------------------------------
-[ 2020-04-17T14:10:37+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
-[ error ] [8]未定义数组索引: authorcode
-[ error ] [8]未定义数组索引: endtime
-[ error ] [8]未定义数组索引: authorcode
----------------------------------------------------------------
-[ 2020-04-17T14:17:49+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
-[ error ] [8]未定义数组索引: authorcode
-[ error ] [8]未定义数组索引: endtime
-[ error ] [8]未定义数组索引: authorcode
----------------------------------------------------------------
-[ 2020-04-17T14:17:51+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
-[ error ] [8]未定义数组索引: page
-[ error ] [8]未定义数组索引: page
----------------------------------------------------------------
-[ 2020-04-17T15:31:28+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videodel
-[ error ] [8]未定义变量: data
-[ error ] [2]Invalid argument supplied for foreach()
----------------------------------------------------------------
-[ 2020-04-17T15:31:31+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
-[ error ] [8]未定义数组索引: page
-[ error ] [8]未定义数组索引: page
----------------------------------------------------------------
-[ 2020-04-17T16:32:35+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
-[ error ] [8]未定义数组索引: authorcode
-[ error ] [8]未定义数组索引: endtime
-[ error ] [8]未定义数组索引: authorcode
----------------------------------------------------------------
-[ 2020-04-17T16:32:48+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin
+[ 2020-04-17T08:41:17+08:00 ] 120.194.35.178 GET video.heihuu.com/admin/course/videoadmin
 [ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-17T08:41:17+08:00 ] 120.194.35.178 GET video.heihuu.com/course/ejR/ejR.html
+[ error ] [8]未定义变量: is
+---------------------------------------------------------------
+[ 2020-04-17T10:59:35+08:00 ] 42.120.75.132 GET video.heihuu.com/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-17T14:09:44+08:00 ] 120.194.35.178 GET video.heihuu.com/course/ejR/ejR.html
+[ error ] [8]未定义变量: is
+---------------------------------------------------------------
+[ 2020-04-17T14:09:45+08:00 ] 120.194.35.178 GET video.heihuu.com/admin/course/videoadmin
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-17T16:09:54+08:00 ] 47.100.26.147 GET video.heihuu.com/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-17T17:44:09+08:00 ] 54.255.228.192 GET video.heihuu.com/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-17T17:44:15+08:00 ] 54.255.228.192 GET video.heihuu.com/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-17T17:45:17+08:00 ] 54.255.228.192 GET video.heihuu.com/admin/course/videoindex
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-17T17:45:24+08:00 ] 54.255.228.192 GET video.heihuu.com/admin/course/videoadmin
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-17T17:45:28+08:00 ] 54.255.228.192 GET video.heihuu.com/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-17T19:27:31+08:00 ] 139.196.225.93 GET video.heihuu.com/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-17T19:27:32+08:00 ] 139.196.225.93 GET video.heihuu.com/index.html
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-17T19:27:33+08:00 ] 139.196.225.93 GET video.heihuu.com/index.php
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-17T19:27:34+08:00 ] 139.196.225.93 GET video.heihuu.com/?c=4e5e5d7364f443e28fbf0d3ae744a59a
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-17T21:58:21+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-17T21:58:24+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-17T23:47:07+08:00 ] 101.132.169.125 GET video.heihuu.com/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-17T23:56:10+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-17T23:56:14+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-17T23:56:20+08:00 ] 119.123.120.25 GET video.heihuu.com/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page

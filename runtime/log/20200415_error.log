@@ -1,0 +1,32 @@
+---------------------------------------------------------------
+[ 2020-04-15T11:08:23+08:00 ] 0.0.0.0 GET localhost/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-15T11:08:33+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-15T11:08:39+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-15T11:08:43+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-15T14:29:09+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-15T16:01:22+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-15T16:01:23+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-15T16:01:30+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page

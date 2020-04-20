@@ -242,4 +242,11 @@ return [
         'var_page'  => 'page',
         'list_rows' => 15,
     ],
-];
+    'aliyun_oss' => [
+    'accessKeyId'      => 'LTAIcnQuDKBFNsNU',
+    'accessKeySecret'  => 'dRWGflyAfXJob4wtrc8fgIO5879GwV',
+    'endpoint'         => 'oss-accelerate.aliyuncs.com',
+    'bucket'           => 'kangkangceshi',
+    'cdn'              => ''
+	],
+ ];

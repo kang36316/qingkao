@@ -1,0 +1,88 @@
+---------------------------------------------------------------
+[ 2020-04-14T14:10:00+08:00 ] 0.0.0.0 GET localhost/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-14T14:10:23+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-14T14:10:32+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T14:11:24+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T14:23:09+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T14:25:12+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T14:42:04+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T14:42:15+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T14:49:09+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T15:17:15+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T15:17:23+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T15:22:42+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T15:25:36+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T15:25:40+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T15:27:48+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T15:39:30+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T15:40:42+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T15:41:22+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T15:59:05+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T15:59:20+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T15:59:34+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-14T16:37:06+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
