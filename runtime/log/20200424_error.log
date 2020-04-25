@@ -1,0 +1,1198 @@
+---------------------------------------------------------------
+[ 2020-04-24T09:14:39+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index.html
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T09:14:40+08:00 ] 0.0.0.0 GET localhost/admin/classroom/add.html
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T09:15:55+08:00 ] 0.0.0.0 GET localhost/admin/classroom/add.html
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T09:16:52+08:00 ] 0.0.0.0 GET localhost/admin/classroom/add.html
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T09:17:00+08:00 ] 0.0.0.0 GET localhost/admin/classroom/add.html
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T09:17:40+08:00 ] 0.0.0.0 GET localhost/admin/classroom/add.html
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T09:18:11+08:00 ] 0.0.0.0 GET localhost/admin/classroom/add.html
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T09:18:37+08:00 ] 0.0.0.0 GET localhost/admin/classroom/add.html
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T09:20:15+08:00 ] 0.0.0.0 GET localhost/admin/classroom/add.html
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T09:22:35+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index.html
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T09:23:26+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index.html
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T10:52:37+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T10:53:00+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T10:53:04+08:00 ] 0.0.0.0 GET localhost/admin/course/xueyuanlist/cid/1/type/1.html
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T10:53:27+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T10:53:34+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T10:53:39+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T10:53:51+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T10:56:34+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T10:57:11+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T10:57:16+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist.html
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T12:35:51+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T12:36:02+08:00 ] 0.0.0.0 GET localhost/admin/course/videoedit/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T12:36:06+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T12:36:09+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadd.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T12:37:03+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T12:39:59+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadd.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T12:46:03+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T12:46:07+08:00 ] 0.0.0.0 GET localhost/admin/course/materiallist/cid/1/type/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T12:46:38+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T12:47:03+08:00 ] 0.0.0.0 GET localhost/admin/course/materialadd/cid/1/cstype/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T12:50:03+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddzhang/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T12:50:12+08:00 ] 0.0.0.0 POST localhost/admin/course/videoaddzhang/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T12:50:14+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T12:55:01+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddzhang/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T12:55:05+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [0]致命错误: Call to undefined function U()
+---------------------------------------------------------------
+[ 2020-04-24T12:55:13+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadddoc/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T12:56:11+08:00 ] 0.0.0.0 GET localhost/admin/course/videoeditzhang/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T12:56:21+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddzhang/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T12:59:26+08:00 ] 0.0.0.0 GET localhost/classroominfo/ejR.html
+[ error ] [2]Invalid argument supplied for foreach()
+[ error ] [8]未定义变量: videoIds
+[ error ] [8]未定义变量: teacherId
+[ error ] [2]array_flip() expects parameter 1 to be array, null given
+[ error ] [2]array_flip() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: videoStudied
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: liveStudied
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: videoCourseNum
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: liveCourseNum
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [2]Division by zero
+[ error ] [8]未定义变量: videoIds
+[ error ] [8]未定义变量: liveIds
+[ error ] [8]未定义变量: videoProgress
+[ error ] [8]未定义变量: liveProgress
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [8]未定义变量: is
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+---------------------------------------------------------------
+[ 2020-04-24T12:59:35+08:00 ] 0.0.0.0 GET localhost/classroominfo/ejR.html
+[ error ] [2]Invalid argument supplied for foreach()
+[ error ] [8]未定义变量: videoIds
+[ error ] [8]未定义变量: teacherId
+[ error ] [2]array_flip() expects parameter 1 to be array, null given
+[ error ] [2]array_flip() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: videoStudied
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: liveStudied
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: videoCourseNum
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: liveCourseNum
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [2]Division by zero
+[ error ] [8]未定义变量: videoIds
+[ error ] [8]未定义变量: liveIds
+[ error ] [8]未定义变量: videoProgress
+[ error ] [8]未定义变量: liveProgress
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [8]未定义变量: is
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+---------------------------------------------------------------
+[ 2020-04-24T12:59:56+08:00 ] 0.0.0.0 GET localhost/classroominfo/ejR.html
+[ error ] [2]Invalid argument supplied for foreach()
+[ error ] [8]未定义变量: videoIds
+[ error ] [8]未定义变量: teacherId
+[ error ] [2]array_flip() expects parameter 1 to be array, null given
+[ error ] [2]array_flip() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: videoStudied
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: liveStudied
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: videoCourseNum
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: liveCourseNum
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [2]Division by zero
+[ error ] [8]未定义变量: videoIds
+[ error ] [8]未定义变量: liveIds
+[ error ] [8]未定义变量: videoProgress
+[ error ] [8]未定义变量: liveProgress
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [8]未定义变量: is
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+---------------------------------------------------------------
+[ 2020-04-24T13:00:55+08:00 ] 0.0.0.0 GET localhost/classroominfo/ejR.html
+[ error ] [2]Invalid argument supplied for foreach()
+[ error ] [8]未定义变量: videoIds
+[ error ] [8]未定义变量: teacherId
+[ error ] [2]array_flip() expects parameter 1 to be array, null given
+[ error ] [2]array_flip() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: videoStudied
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: liveStudied
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: videoCourseNum
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: liveCourseNum
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [2]Division by zero
+[ error ] [8]未定义变量: videoIds
+[ error ] [8]未定义变量: liveIds
+[ error ] [8]未定义变量: videoProgress
+[ error ] [8]未定义变量: liveProgress
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [8]未定义变量: is
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+---------------------------------------------------------------
+[ 2020-04-24T13:01:03+08:00 ] 0.0.0.0 GET localhost/user.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T13:01:10+08:00 ] 0.0.0.0 GET localhost/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T13:01:19+08:00 ] 0.0.0.0 GET localhost/course/ejR/ejR.html
+[ error ] [8]未定义变量: is
+[ error ] [2]in_array() expects parameter 2 to be array, null given
+---------------------------------------------------------------
+[ 2020-04-24T13:01:53+08:00 ] 0.0.0.0 GET localhost/creatorder/ejR/ejR.html
+[ error ] [8]未定义变量: is
+---------------------------------------------------------------
+[ 2020-04-24T13:01:57+08:00 ] 0.0.0.0 POST localhost/creatorder/ejR/ejR.html
+[ error ] [8]未定义变量: is
+[ error ] [8]未定义数组索引: usedCoupon
+---------------------------------------------------------------
+[ 2020-04-24T13:02:02+08:00 ] 0.0.0.0 POST localhost/creatorder/ejR/ejR.html
+[ error ] [8]未定义变量: is
+[ error ] [8]未定义数组索引: usedCoupon
+---------------------------------------------------------------
+[ 2020-04-24T13:02:14+08:00 ] 0.0.0.0 GET localhost/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T13:02:22+08:00 ] 0.0.0.0 GET localhost/classroominfo/ejR.html
+[ error ] [2]Invalid argument supplied for foreach()
+[ error ] [8]未定义变量: videoIds
+[ error ] [8]未定义变量: teacherId
+[ error ] [2]array_flip() expects parameter 1 to be array, null given
+[ error ] [2]array_flip() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: videoStudied
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: liveStudied
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: videoCourseNum
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: liveCourseNum
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [2]Division by zero
+[ error ] [8]未定义变量: videoIds
+[ error ] [8]未定义变量: liveIds
+[ error ] [8]未定义变量: videoProgress
+[ error ] [8]未定义变量: liveProgress
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [8]未定义变量: is
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+---------------------------------------------------------------
+[ 2020-04-24T13:02:25+08:00 ] 0.0.0.0 GET localhost/creatorder/ejR/el5.html
+[ error ] [2]Invalid argument supplied for foreach()
+[ error ] [8]未定义变量: videoIds
+[ error ] [8]未定义变量: liveIds
+[ error ] [8]未定义变量: is
+---------------------------------------------------------------
+[ 2020-04-24T13:02:30+08:00 ] 0.0.0.0 GET localhost/classroominfo/ejR.html
+[ error ] [2]Invalid argument supplied for foreach()
+[ error ] [8]未定义变量: videoIds
+[ error ] [8]未定义变量: teacherId
+[ error ] [2]array_flip() expects parameter 1 to be array, null given
+[ error ] [2]array_flip() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: videoStudied
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: liveStudied
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: videoCourseNum
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [8]未定义变量: liveCourseNum
+[ error ] [2]array_sum() expects parameter 1 to be array, null given
+[ error ] [2]Division by zero
+[ error ] [8]未定义变量: videoIds
+[ error ] [8]未定义变量: liveIds
+[ error ] [8]未定义变量: videoProgress
+[ error ] [8]未定义变量: liveProgress
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [8]未定义变量: is
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+[ error ] [8]未定义变量: teacherInfo
+---------------------------------------------------------------
+[ 2020-04-24T13:02:34+08:00 ] 0.0.0.0 GET localhost/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T13:02:39+08:00 ] 0.0.0.0 GET localhost/course/ejR/ejR.html
+[ error ] [8]未定义变量: is
+[ error ] [2]in_array() expects parameter 2 to be array, null given
+---------------------------------------------------------------
+[ 2020-04-24T13:02:46+08:00 ] 0.0.0.0 GET localhost/learn/bk5/ejR.html
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead
+[ error ] [8]Trying to get property 'access_token' of non-object
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead
+[ error ] [8]Trying to get property 'ticket' of non-object
+[ error ] [2]in_array() expects parameter 2 to be array, null given
+---------------------------------------------------------------
+[ 2020-04-24T13:13:40+08:00 ] 0.0.0.0 GET localhost/mylearn/ejR/ejR.html
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]in_array() expects parameter 2 to be array, null given
+---------------------------------------------------------------
+[ 2020-04-24T13:14:21+08:00 ] 0.0.0.0 GET localhost/learn/bk5/ejR.html
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead
+[ error ] [8]Trying to get property 'access_token' of non-object
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead
+[ error ] [8]Trying to get property 'ticket' of non-object
+[ error ] [2]in_array() expects parameter 2 to be array, null given
+---------------------------------------------------------------
+[ 2020-04-24T13:14:35+08:00 ] 0.0.0.0 GET localhost/mylearn/ejR/ejR.html
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]in_array() expects parameter 2 to be array, null given
+---------------------------------------------------------------
+[ 2020-04-24T13:14:59+08:00 ] 0.0.0.0 GET localhost/learn/bk5/ejR.html
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead
+[ error ] [8]Trying to get property 'access_token' of non-object
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead
+[ error ] [8]Trying to get property 'ticket' of non-object
+[ error ] [2]in_array() expects parameter 2 to be array, null given
+---------------------------------------------------------------
+[ 2020-04-24T14:35:40+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T14:35:47+08:00 ] 0.0.0.0 GET localhost/admin/course/videoedit/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T14:35:51+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T14:35:54+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T14:36:08+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddexam/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T14:36:27+08:00 ] 0.0.0.0 GET localhost/admin/course/paperlist.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-24T14:36:33+08:00 ] 0.0.0.0 POST localhost/admin/course/videoaddexam/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T14:36:38+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T14:37:04+08:00 ] 0.0.0.0 GET localhost/admin/course/videoeditdoc/id/2.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T14:37:30+08:00 ] 0.0.0.0 GET localhost/admin/course/videoeditzhang/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T15:17:04+08:00 ] 0.0.0.0 GET localhost/user.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T15:17:14+08:00 ] 0.0.0.0 GET localhost/myclassroom.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T15:17:20+08:00 ] 0.0.0.0 GET localhost/mycourse.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T15:17:25+08:00 ] 0.0.0.0 GET localhost/myclassroom.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T15:17:34+08:00 ] 0.0.0.0 GET localhost/myclassroom.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T15:47:08+08:00 ] 0.0.0.0 GET localhost/user.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T15:47:14+08:00 ] 0.0.0.0 GET localhost/course/ejR/ejR.html
+[ error ] [8]未定义变量: is
+[ error ] [2]in_array() expects parameter 2 to be array, null given
+[ error ] [2]in_array() expects parameter 2 to be array, null given
+---------------------------------------------------------------
+[ 2020-04-24T15:47:36+08:00 ] 0.0.0.0 GET localhost/course/ejR/ejR.html
+[ error ] [8]未定义变量: is
+[ error ] [2]in_array() expects parameter 2 to be array, null given
+[ error ] [2]in_array() expects parameter 2 to be array, null given
+---------------------------------------------------------------
+[ 2020-04-24T15:47:39+08:00 ] 0.0.0.0 GET localhost/user.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T15:47:42+08:00 ] 0.0.0.0 GET localhost/myclassroom.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T15:47:45+08:00 ] 0.0.0.0 GET localhost/myclassroom.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T15:47:47+08:00 ] 0.0.0.0 GET localhost/mycourse.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T15:48:40+08:00 ] 0.0.0.0 GET localhost/mycourse.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T15:48:46+08:00 ] 0.0.0.0 GET localhost/mycourse.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T15:48:46+08:00 ] 0.0.0.0 GET localhost/mycourse.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T15:48:50+08:00 ] 0.0.0.0 GET localhost/myclassroom.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T15:49:03+08:00 ] 0.0.0.0 GET localhost/myclassroom.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2020-04-24T17:22:14+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T17:22:27+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-24T17:22:33+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T17:22:36+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [0]致命错误: Call to undefined function U()
+---------------------------------------------------------------
+[ 2020-04-24T17:23:08+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T17:23:10+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [0]致命错误: Call to undefined function U()
+---------------------------------------------------------------
+[ 2020-04-24T17:23:35+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T17:23:37+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [0]致命错误: Call to undefined function U()
+---------------------------------------------------------------
+[ 2020-04-24T17:26:46+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T17:26:48+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [0]致命错误: Call to undefined function U()
+---------------------------------------------------------------
+[ 2020-04-24T17:27:14+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T17:27:16+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [0]致命错误: Call to undefined function U()
+---------------------------------------------------------------
+[ 2020-04-24T17:27:45+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T17:27:48+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T17:29:45+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T17:29:48+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+[ error ] [0]致命错误: Call to undefined function U()
+---------------------------------------------------------------
+[ 2020-04-24T18:35:01+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T18:35:12+08:00 ] 0.0.0.0 GET localhost/admin/course/videoList
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T18:40:16+08:00 ] 0.0.0.0 GET localhost/admin/course/videoList
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T18:40:32+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T18:40:38+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist.
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T18:40:41+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T18:42:50+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T18:43:13+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T18:43:36+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T18:44:05+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T18:44:09+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T18:44:51+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+---------------------------------------------------------------
+[ 2020-04-24T18:44:56+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+---------------------------------------------------------------
+[ 2020-04-24T18:55:59+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+---------------------------------------------------------------
+[ 2020-04-24T18:59:07+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T18:59:09+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:01:10+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:01:11+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:01:28+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [0]致命错误: Class 'DefaultProfile' not found
+---------------------------------------------------------------
+[ 2020-04-24T19:06:42+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:06:52+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [0]致命错误: Class 'DefaultProfile' not found
+---------------------------------------------------------------
+[ 2020-04-24T19:07:20+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [0]致命错误: Class 'DefaultProfile' not found
+---------------------------------------------------------------
+[ 2020-04-24T19:08:56+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:09:06+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [0]致命错误: Class 'DefaultAcsClient' not found
+---------------------------------------------------------------
+[ 2020-04-24T19:09:57+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:10:07+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [0]类型错误: Too few arguments to function app\admin\controller\Quan::initVodClient(), 0 passed in D:\phpstudy_pro\WWW\qingkaoedu\application\admin\controller\Quan.php on line 36 and exactly 2 expected
+---------------------------------------------------------------
+[ 2020-04-24T19:13:39+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:13:48+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [0]致命错误: Class 'vod\Request\V20170321\CreateUploadVideoRequest' not found
+---------------------------------------------------------------
+[ 2020-04-24T19:14:50+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:15:00+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [0]致命错误: Class 'vod\Request\V20170321\CreateUploadVideoRequest' not found
+---------------------------------------------------------------
+[ 2020-04-24T19:16:15+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:16:23+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [0]致命错误: Class 'app\admin\controller\CreateUploadVideoRequest' not found
+---------------------------------------------------------------
+[ 2020-04-24T19:34:13+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:34:21+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T19:34:51+08:00 ] 0.0.0.0 GET localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T19:35:46+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:35:53+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [0]致命错误: Class 'DefaultProfile' not found
+---------------------------------------------------------------
+[ 2020-04-24T19:36:32+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:36:43+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [0]致命错误: Class 'DefaultProfile' not found
+---------------------------------------------------------------
+[ 2020-04-24T19:41:39+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist.
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:41:41+08:00 ] 0.0.0.0 GET localhost/admin/course
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+---------------------------------------------------------------
+[ 2020-04-24T19:41:49+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T19:41:53+08:00 ] 0.0.0.0 GET localhost/admin/course/videoindex
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T19:41:58+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T19:42:01+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T19:42:20+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:42:33+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [0]致命错误: Class 'DefaultProfile' not found
+---------------------------------------------------------------
+[ 2020-04-24T19:43:46+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T19:43:51+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T19:43:57+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:44:06+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [0]致命错误: Class 'DefaultProfile' not found
+---------------------------------------------------------------
+[ 2020-04-24T19:44:11+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T19:45:16+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T19:45:20+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T19:45:24+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T19:45:35+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [0]致命错误: Class 'DefaultProfile' not found
+---------------------------------------------------------------
+[ 2020-04-24T22:01:57+08:00 ] 0.0.0.0 GET localhost/admin/course/videoadmin/id/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: 
+[ error ] [8]未定义数组索引: 
+---------------------------------------------------------------
+[ 2020-04-24T22:02:01+08:00 ] 0.0.0.0 GET localhost/admin/course/videoaddsection/cid/1.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义变量: data
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2020-04-24T22:02:13+08:00 ] 0.0.0.0 GET localhost/admin/course/videolist.html
+[ error ] [2]include_once(./Public/video/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include_once(): Failed opening './Public/video/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: categoryId
+[ error ] [8]未定义变量: v
+---------------------------------------------------------------
+[ 2020-04-24T22:02:27+08:00 ] 0.0.0.0 POST localhost/admin/quan/createUploadVideo
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Config.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/Profile/DefaultProfile.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [2]include(D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php): failed to open stream: No such file or directory
+[ error ] [2]include(): Failed opening 'D:\phpstudy_pro\WWW\qingkaoedu\extend\aliyun-php-sdk/aliyun-php-sdk-core/DefaultAcsClient.php' for inclusion (include_path='.;C:\php\pear')
+[ error ] [0]致命错误: Class 'DefaultProfile' not found
+---------------------------------------------------------------
+[ 2020-04-24T23:08:18+08:00 ] 0.0.0.0 GET localhost/admin/index/index.html
+[ error ] [8]未定义数组索引: authorcode
+[ error ] [8]未定义数组索引: endtime
+[ error ] [8]未定义数组索引: authorcode
+---------------------------------------------------------------
+[ 2020-04-24T23:08:28+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T23:22:14+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T23:25:19+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T23:26:24+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T23:28:17+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T23:39:25+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T23:43:47+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index
+[ error ] [8]未定义变量: map
+[ error ] [8]未定义数组索引: headteacher
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [8]未定义数组索引: headteacher
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [8]未定义数组索引: headteacher
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [8]未定义数组索引: headteacher
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [8]未定义数组索引: headteacher
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [8]未定义数组索引: headteacher
+---------------------------------------------------------------
+[ 2020-04-24T23:44:15+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index
+[ error ] [8]未定义变量: map
+[ error ] [8]未定义数组索引: id
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T23:44:53+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index
+[ error ] [8]未定义变量: map
+[ error ] [8]未定义数组索引: headteacher
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-24T23:45:35+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index
+[ error ] [8]未定义变量: map
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable

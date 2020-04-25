@@ -1,6 +1,11 @@
 <?php
 namespace app\admin\controller;
 use app\common\controller\AdminBase;
+
+use Think\Controller;
+include_once './Public/video/aliyun-php-sdk-core/Config.php';
+use vod\Request\V20170321 as vod;
+
 vendor ('category.Category');
 class Course extends AdminBase
 {

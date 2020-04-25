@@ -1,0 +1,84 @@
+---------------------------------------------------------------
+[ 2020-04-22T23:20:13+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->info
+---------------------------------------------------------------
+[ 2020-04-22T23:20:39+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->info
+---------------------------------------------------------------
+[ 2020-04-22T23:20:42+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->info
+---------------------------------------------------------------
+[ 2020-04-22T23:21:12+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->info
+---------------------------------------------------------------
+[ 2020-04-22T23:23:36+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->info
+---------------------------------------------------------------
+[ 2020-04-22T23:23:42+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->info
+---------------------------------------------------------------
+[ 2020-04-22T23:24:27+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->info
+---------------------------------------------------------------
+[ 2020-04-22T23:26:29+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->info
+---------------------------------------------------------------
+[ 2020-04-22T23:26:32+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->info
+---------------------------------------------------------------
+[ 2020-04-22T23:27:01+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->info
+---------------------------------------------------------------
+[ 2020-04-22T23:27:13+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->info
+---------------------------------------------------------------
+[ 2020-04-22T23:27:40+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-22T23:27:45+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->info
+---------------------------------------------------------------
+[ 2020-04-22T23:27:49+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-22T23:28:09+08:00 ] 0.0.0.0 GET localhost/admin/classroom/index
+[ error ] [8]未定义变量: map
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-22T23:28:18+08:00 ] 0.0.0.0 GET localhost/admin/educloud/videoList
+[ error ] [8]未定义数组索引: page
+[ error ] [8]未定义数组索引: page
+---------------------------------------------------------------
+[ 2020-04-22T23:28:20+08:00 ] 0.0.0.0 GET localhost/admin/article/index
+[ error ] [8]未定义变量: map
+---------------------------------------------------------------
+[ 2020-04-22T23:28:26+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->info
+---------------------------------------------------------------
+[ 2020-04-22T23:33:50+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->info
+---------------------------------------------------------------
+[ 2020-04-22T23:36:07+08:00 ] 0.0.0.0 GET localhost/admin/user/teacherList
+[ error ] [0]类的属性不存在:app\common\model\User->addtime
+---------------------------------------------------------------
+[ 2020-04-22T23:56:30+08:00 ] 0.0.0.0 GET localhost/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-22T23:56:38+08:00 ] 0.0.0.0 GET localhost/
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable
+---------------------------------------------------------------
+[ 2020-04-22T23:56:40+08:00 ] 0.0.0.0 GET localhost/course/ejR/ejR.html
+[ error ] [8]未定义变量: is
+[ error ] [2]in_array() expects parameter 2 to be array, null given

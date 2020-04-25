@@ -2,7 +2,7 @@
 
 
 namespace app\api\controller;
-require __DIR__ . '/vendor/autoload.php';
+vendor ('aliyuncs.oss-sdk-php.autoload');
 use vendor\AlibabaCloud\Client\AlibabaCloud;
 use vendor\AlibabaCloud\Client\Exception\ClientException;
 use vendor\AlibabaCloud\Client\Exception\ServerException;
@@ -10,7 +10,7 @@ use vendor\AlibabaCloud\Vod\Vod;
 
 class Aliyuncloud
 {
-    function initVodClient($accessKeyId, $accessKeySecret) {
+    function initVodClient($accessKeyId="LTAIcnQuDKBFNsNU",  $accessKeySecret="dRWGflyAfXJob4wtrc8fgIO5879GwV") {
         $regionId = 'cn-shanghai';
         AlibabaCloud::accessKeyClient($accessKeyId, $accessKeySecret)
             ->regionId($regionId)
@@ -160,10 +160,10 @@ class Aliyuncloud
     }
 
     /**
-    * 搜索媒资信息
-    * @param client 发送请求客户端
-    * @return SearchMediaResponse 搜索媒资信息响应数据
-    */
+     * 搜索媒资信息
+     * @param client 发送请求客户端
+     * @return SearchMediaResponse 搜索媒资信息响应数据
+     */
     function searchMedia($client) {
         $request = new vod\SearchMediaRequest();
         $request->setFields("Title,CoverURL,Status");

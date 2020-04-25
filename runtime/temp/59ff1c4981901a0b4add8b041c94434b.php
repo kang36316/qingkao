@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:75:"/www/wwwroot/qingkao/public/../application/admin/view/educloud/videoup.html";i:1558966648;s:55:"/www/wwwroot/qingkao/application/admin/view/iframe.html";i:1581220658;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:75:"/www/wwwroot/qingkao/public/../application/admin/view/educloud/quan.html";i:1558966648;s:55:"/www/wwwroot/qingkao/application/admin/view/iframe.html";i:1581220658;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>

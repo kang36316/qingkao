@@ -9,7 +9,6 @@ class Classroom extends AdminBase
     protected function _initialize()
     {
         parent::_initialize();
-
     }
 
     /**
@@ -32,7 +31,8 @@ class Classroom extends AdminBase
             $map['headteacher'] = getTeacherIdByUid(is_user_login());
         }
         $list = model('classroom')->where($where)->where($map)->order('sort_order asc,id desc')->paginate(config('page_number'), false, ['query' => $param]);
-        return $this->fetch('index', ['list' => $list]);
+        $teacher=model('user')->where(['id'=>input('headteacher')])->field('headteacher')->find();
+        return $this->fetch('index', ['list' => $list,'teacher' => $teacher]);
     }
 
     /**
@@ -43,11 +43,12 @@ class Classroom extends AdminBase
         if ($this->request->isPost()) {
             $param = $this->request->param();
             $param['addtime']=date('Y-m-d h:i:s', time());
-            $param['headteacher'] = getTeacherIdByAdminId(is_admin_login());
+//            $param['headteacher'] = getTeacherIdByAdminId(is_admin_login());
             $param['status'] = 1;
             $param['is_top'] = 0;
             $param['views'] = 0;
-            $param['type'] = 3;
+            $param['price'] = 0;
+            $param['youxiaoqi'] = 99999;
             if ($this->insert('classroom', $param) === true) {
                 insert_admin_log('添加了班级');
                 $this->success('添加成功', url('admin/classroom/index'));
@@ -55,7 +56,8 @@ class Classroom extends AdminBase
                 $this->error($this->errorMsg);
             }
         }
-        return $this->fetch('save');
+        $zhang = model('user')->order('id asc')->where(['is_teacher'=>1])->select();
+        return $this->fetch('save',['zhang' =>$zhang]);
     }
 
     /**
@@ -65,6 +67,7 @@ class Classroom extends AdminBase
     {
         if ($this->request->isPost()) {
             $param = $this->request->param();
+            $param['price'] = 0;
             if (is_array($param['id'])) {
                 $data = [];
                 foreach ($param['id'] as $v) {
@@ -81,7 +84,8 @@ class Classroom extends AdminBase
                 $this->error($this->errorMsg);
             }
         }
-        return $this->fetch('save', ['data' => model('classroom')->get(input('id'))]);
+        $zhang=model('user')->order('id asc')->where(['is_teacher'=>1])->select();
+        return $this->fetch('save', ['zhang' =>$zhang,'data' => model('classroom')->get(input('id'))]);
     }
 
     /**
@@ -128,7 +132,7 @@ class Classroom extends AdminBase
     /**
      * 获取班级学员列表
      */
-    function xueyuanList()
+    function yuanList()
     {
         $param = $this->request->param();
         $list = model('userCourse')->where(['cid' => $param['cid'], 'type' => $param['type']])->select();

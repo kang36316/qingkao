@@ -5,13 +5,13 @@ return array(
 	// 数据库连接DSN配置
 	'dsn'         => '',
 	// 服务器地址
-	'hostname'    => '127.0.0.1',
+	'hostname'    => '121.199.63.172',
 	// 数据库名
 	'database'    => 'qingkaoedu',
 	// 数据库用户名
 	'username'    => 'root',
 	// 数据库密码
-	'password'    => 'root',
+	'password'    => '19b4648539d7a921',
 	// 数据库连接端口
 	'hostport'    => '3306',
 	// 数据库连接参数

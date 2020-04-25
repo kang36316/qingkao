@@ -5,31 +5,36 @@
 </style>
 <div class="layui-container">
     <div class="layui-row mt10">
-        <input  id="files" type="file" name="myFile" multiple="multiple" class="layui-hide"/>
-        <input  id="userId" type="text" name="userId" class="layui-hide" value="{$userId}"/>
-        <input  id="categoryid" type="text" class="layui-hide"  value="{$categoryid}"/>
-        <input type="hidden" id="count" value="{$count}">
-        <input type="hidden" id="PageSize" value="{$PageSize}">
-        <input type="hidden" id="curr" value="{$curr}">
-        <input type="hidden" id="url" value="/admin/course/videoList/page/">
+        <input name="title" type="text" placeholder="标题" style="width:300px;"><br><br>
+        <input name="video" type="file" id="files"><br><br>
+        <input type="hidden" id="uploadAuth" value="">
+        <input type="hidden" id="uploadAddress" value="">
+        <input type="hidden" id="videoId" value="">
+        <!--<input  id="categoryid" type="text" class="layui-hide"  value="1000129265"/>-->
+        <!--<input type="hidden" id="count" value="{$count}">-->
+        <!--<input type="hidden" id="PageSize" value="{$PageSize}">-->
+        <!--<input type="hidden" id="curr" value="{$curr}">-->
+        <!--<input type="hidden" id="url" value="/admin/course/videoList/page/">-->
+        <div style="width:0%;height:30px;background-color:red;" id="jindu"></div>
         <div class="ml20 mb10">
             <span class="layui-breadcrumb categoryList" id="categoryList" lay-separator="|">
-               <a {if condition="$v.CateId eq $categoryid"}class="active"{/if} href="{:url('admin/course/videoList')}">全部</a>
-              {foreach name="categoryList" item="v"}
-               <a href="{:url('admin/course/videoList', ['categoryId'=>$v.CateId])}"
-                  {if condition="$v.CateId eq $categoryid"}class="active"{/if} cid="{$v.CateId}">{$v.CateName}</a>
-              {/foreach}
+            	 <!--<a class="active" cid="1000129265">测试1</a>-->
+                <!-- <a {if condition="$v.CateId eq $categoryid"}class="active"{/if} href="{:url('admin/course/videoList')}">全部</a>-->
+                <!--{foreach name="categoryList" item="v"}-->
+                <!-- <a href="{:url('admin/course/videoList', ['categoryId'=>$v.CateId])}"-->
+                <!--    {if condition="$v.CateId eq $categoryid"}class="active"{/if} cid="{$v.CateId}">{$v.CateName}</a>-->
+                <!--{/foreach}-->
             </span>
         </div>
-        <ul>
-            <li class="layui-col-xs3 layui-col-sm3 layui-col-md3 pd10" onclick="ToSelectFile()">
-                <div class="video-pic">
-                    <i class="fa fa-plus"></i>
-                    <div class="video-title">点击选择上传的视频</div>
-                    <div class="shadow"></div>
-                </div>
-            </li>
-        </ul>
+        <!--<ul>-->
+        <!--    <li class="layui-col-xs3 layui-col-sm3 layui-col-md3 pd10" onclick="jiance()">-->
+        <!--        <div class="video-pic">-->
+        <!--            <i class="fa fa-plus"></i>-->
+        <!--            <div class="video-title">点击选择上传的视频</div>-->
+        <!--            <div class="shadow"></div>-->
+        <!--        </div>-->
+        <!--    </li>-->
+        <!--</ul>-->
         <ul class="radio">
             {foreach name="list" item="v"}
             <li class="layui-col-xs3 layui-col-sm3 layui-col-md3 pd10">
@@ -45,15 +50,81 @@
     </div>
     <div class="page" id="page" style="margin-left: 10Px;"></div>
     <div class="upvideo-btn mt30">
-        <button class="layui-btn layui-hide" onclick="start()" id="button-start"><i class="fa fa-cloud-upload"></i>  开始上传</button>
+        <button class="layui-btn " onclick="jiance()" id="button-start"><i class="fa fa-cloud-upload"></i>  开始上传</button>
     </div>
 </div>
 <script src="__JS__/jquery.min.js"></script>
-<script src="__LIBS__/layui/layui.all.js"></script>
-<script src="__JS__/layui.base.js"></script>
 <script src="__JS__/aliyun/es6-promise.min.js"></script>
 <script src="__JS__/aliyun/aliyun-oss-sdk-5.3.1.min.js"></script>
-<script src="__JS__/aliyun/aliyun-upload-sdk-1.5.0.min.js"></script>
-<script src="__JS__/aliyun/md5.js"></script>
-<script src="__JS__/aliyun/upvideo-addsection.js"></script>
+<script src="__JS__/aliyun/aliyun-upload-sdk-1.4.0.min.js"></script>
+<script>
+    var accessKeyId = "LTAIcnQuDKBFNsNU";
+    var accessKeySecret = "dRWGflyAfXJob4wtrc8fgIO5879GwV";var uploader = new AliyunUpload.Vod({
+        //阿里账号ID，必须有值 ，值的来源https://help.aliyun.com/knowledge_detail/37196.html
+        userId:"1633611861416361",
+        //分片大小默认1M，不能小于100K
+        partSize: 1048576,
+        //并行上传分片个数，默认5
+        parallel: 5,
+        //网络原因失败时，重新上传次数，默认为3
+        retryCount: 3,
+        //网络原因失败时，重新上传间隔时间，默认为2秒
+        retryDuration: 2,
+        //是否上报上传日志到点播，默认为true
+        enableUploadProgress: true,
+        // 开始上传
+        'onUploadstarted': function (uploadInfo) {
+            var uploadAuth = document.getElementById("uploadAuth").value;
+            var uploadAddress = document.getElementById("uploadAddress").value;
+            var videoId = document.getElementById("videoId").value;
+            uploader.setUploadAuthAndAddress(uploadInfo, uploadAuth, uploadAddress,videoId);
+        },
+        // 文件上传成功
+        'onUploadSucceed': function (uploadInfo) {
+            console.log("onUploadSucceed: " + uploadInfo.file.name + ", endpoint:" + uploadInfo.endpoint + ", bucket:" + uploadInfo.bucket + ", object:" + uploadInfo.object);
+            $('input[name=videoid]', window.parent.document).val($("#videoId").val());
+            var index = parent.layer.getFrameIndex(window.name);
+            parent.layer.close(index);
+        },
+        // 文件上传失败
+        'onUploadFailed': function (uploadInfo, code, message) {
+            console.log("onUploadFailed: file:" + uploadInfo.file.name + ",code:" + code + ", message:" + message);
+        },
+        // 文件上传进度，单位：字节
+        'onUploadProgress': function (uploadInfo, totalSize, loadedPercent) {
+            $("#jindu").css("width",(loadedPercent * 100.00).toFixed(2) + "%");
+            console.log("onUploadProgress:file:" + uploadInfo.file.name + ", fileSize:" + totalSize + ", percent:" + Math.ceil(loadedPercent * 100) + "%");
+        },
+        // 上传凭证超时
+        'onUploadTokenExpired': function (uploadInfo) {
+            console.log("onUploadTokenExpired");
+            //实现时，根据uploadInfo.videoId调用刷新视频上传凭证接口重新获取UploadAuth
+            //https://help.aliyun.com/document_detail/55408.html
+            //从点播服务刷新的uploadAuth,设置到SDK里
+            uploader.resumeUploadWithAuth(uploadAuth);
+        },
+        //全部文件上传结束
+        'onUploadEnd':function(uploadInfo){
+            console.log("onUploadEnd: uploaded all the files");
+        }
+    });
+
+
+    function jiance(){
+        var f = document.getElementById("files").files;
+
+        $.post("/admin/quan/createUploadVideo",{"title":$('input[name=title]').val(),name:f[0].name},function(data){
+            // console.log(data.UploadAuth)
+            document.getElementById("uploadAuth").value=data.UploadAuth;
+            document.getElementById("uploadAddress").value=data.UploadAddress;
+            document.getElementById("videoId").value=data.VideoId;
+            var userData = '{"Vod":{"StorageLocation":"","UserData":{"IsShowWaterMark":"false","Priority":"7"}}}';
+            uploader.addFile(f[0], null, null, null, userData);
+            uploader.startUpload();
+        },"json")
+    }
+
+
+</script>
+
 {/block}

@@ -216,7 +216,7 @@ class Educloud extends AdminBase{
     public function videoup()
     {
         $videocategory=$this->getVideoCategory(1,100);
-        return $this->fetch('videoup',['videocategory'=>$videocategory['SubCategories']['Category'],'aliUid'=>config('AliUserId')]);
+        return $this->fetch('quan',['videocategory'=>$videocategory['SubCategories']['Category'],'aliUid'=>config('AliUserId')]);
     }
     /**
      * 阿里云视频分类列表

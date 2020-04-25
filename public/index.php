@@ -18,5 +18,6 @@ header('Access-Control-Allow-Methods:POST');
 // 响应头设置
 header('Access-Control-Allow-Headers:x-requested-with,content-type');
 define('APP_PATH', __DIR__ . '/../application/');
+//define("BIND_MODULE",'admin');
 // 加载框架引导文件
 require __DIR__ . '/../thinkphp/start.php';

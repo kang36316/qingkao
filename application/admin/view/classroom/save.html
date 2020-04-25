@@ -1,14 +1,17 @@
 {extend name="base" /}
+{block name="css"}
+<link rel="stylesheet" type="text/css" media="all" href="__JS__/chose/css/chose.css">
+{/block}
 {block name="body"}
 <div class="layui-card">
     <div class="layui-card-header">创建课程</div>
     <div class="layui-card-body">
-        <form action="{:request()->url()}" class="layui-form" method="post">
-            <div class="layui-form-item">
+        <form action="{:request()->url()}" method="post">
+            <div class="layui-form layui-form-item">
                 <label class="layui-form-label">* 班级封面</label>
                 <div class="layui-input-block">
                     <input type="text" name="picture" value="{$data.picture|default=''}" autocomplete="off" placeholder="请上传班级封面" class="layui-input">
-                    <button type="button" class="layui-btn layui-btn-primary layui-btn-position ajax-images"><i class="fa fa-file-image-o"></i> 选择图片</button>
+                    <button type="button" class="layui-btn layui-btn-primary layui-btn-position ajax-images" style="position: absolute;top: 0;right: 0;"><i class="fa fa-file-image-o"></i> 选择图片</button>
                 </div>
             </div>
             <div class="layui-form-item">
@@ -17,24 +20,42 @@
                     <input type="text" name="title" value="{$data.title|default=''}" autocomplete="off" placeholder="请输入班级标题" class="layui-input">
                 </div>
             </div>
-            <div class="layui-form-item">
-                <label class="layui-form-label">* 入班价格</label>
+            <div class="layui-form layui-form-item">
+                <label class="layui-form-label">* 班级分类</label>
                 <div class="layui-input-block">
-                    <input type="text" name="price" value="{$data.price|default=''}" autocomplete="off" placeholder="请输入班级价格" class="layui-input">
+                    <input type="radio" name="type" {eq name="$data.isfree|default=2" value="1"}checked{/eq} title="学历提升" value="2" checked />
+                    <input type="radio" name="type" {eq name="$data.isfree|default=3" value="0"}checked{/eq} title="资格证" value="3" />
                 </div>
             </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">* 班主任</label>
+                <div class="layui-input-block">
+                    <select name="headteacher" class="choseinput" style="width: 100%;">
+                        <option value="">选择班主任</option>
+                        {foreach name="$zhang" item="v"}
+                        <option value="{$v.id}" {if condition="$data['headteacher'] eq $v.id" }selected="selected"{/if}>{$v.headteacher}</option>
+                        {/foreach}
+                    </select>
+                </div>
+            </div>
+<!--            <div class="layui-form-item">-->
+<!--                <label class="layui-form-label">* 入班价格</label>-->
+<!--                <div class="layui-input-block">-->
+<!--                    <input type="text" name="price" value="{$data.price|default=''}" autocomplete="off" placeholder="请输入班级价格" class="layui-input">-->
+<!--                </div>-->
+<!--            </div>-->
             <div class="layui-form-item">
                 <label class="layui-form-label">* 虚拟学员</label>
                 <div class="layui-input-block">
                     <input type="text" name="xuni" value="{$data.xuni|default=''}" autocomplete="off" placeholder="为增加课程的热度，可适当增加虚拟学员" class="layui-input">
                 </div>
             </div>
-            <div class="layui-form-item">
-                <label class="layui-form-label">* 班级有效期</label>
-                <div class="layui-input-block">
-                    <input type="text" name="youxiaoqi" value="{$data.youxiaoqi|default=''}" autocomplete="off" placeholder="从学员购买日期开始算,单位天" class="layui-input">
-                </div>
-            </div>
+<!--            <div class="layui-form-item">-->
+<!--                <label class="layui-form-label">* 班级有效期</label>-->
+<!--                <div class="layui-input-block">-->
+<!--                    <input type="text" name="youxiaoqi" value="{$data.youxiaoqi|default=''}" autocomplete="off" placeholder="从学员购买日期开始算,单位天" class="layui-input">-->
+<!--                </div>-->
+<!--            </div>-->
             <div class="layui-form-item">
                 <label class="layui-form-label">* 班级简介</label>
                 <div class="layui-input-block">
@@ -52,6 +73,10 @@
 </div>
 {/block}
 {block name="js"}
+<script type="text/javascript" src="__JS__/chose/js/chose.js"></script>
+<script>
+    $('.choseinput').chosen();
+</script>
 <script src="__LIBS__/ueditor/ueditor.config.js"></script>
 <script src="__LIBS__/ueditor/ueditor.all.min.js"></script>
 <script src="__LIBS__/ueditor/lang/zh-cn/zh-cn.js"></script>

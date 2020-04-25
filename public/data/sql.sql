@@ -306,7 +306,7 @@ INSERT INTO `edu_auth_rule` (`id`, `pid`, `name`, `url`, `icon`, `sort_order`, `
 (114, 69, '删除资料关联', 'admin/course/videoMaterialDel', '', 0, 'auth', 0, 1),
 (115, 69, '向课程中添加资料', 'admin/course/MaterialInsert', '', 0, 'auth', 0, 1),
 (116, 81, '视频列表', 'admin/educloud/videoList', '', 0, 'auth', 0, 1),
-(117, 81, '上传视频', 'admin/educloud/videoup', '', 0, 'auth', 0, 1),
+(117, 81, '上传视频', 'admin/educloud/quan', '', 0, 'auth', 0, 1),
 (118, 81, '删除云视频', 'admin/educloud/videodel', '', 0, 'auth', 0, 1),
 (119, 81, 'Oss上传类', 'admin/educloud/new_oss', '', 0, 'auth', 0, 1),
 (120, 81, 'Oss上传实例', 'admin/educloud/ossupload', '', 0, 'auth', 0, 1),

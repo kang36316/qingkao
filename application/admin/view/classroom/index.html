@@ -43,7 +43,7 @@
                 <th style="width:20px;">ID</th>
                 <th >班级标题</th>
                 <th  style="width:40px;">排序</th>
-                <th  style="width:70px;">有效期(天)</th>
+<!--                <th  style="width:70px;">有效期(天)</th>-->
                 <th  style="width:50px;">推荐</th>
                 <th  style="width:65px;">状态</th>
                 <th  style="width:65px;">课程数</th>
@@ -59,12 +59,12 @@
                 <td>{$v.id}</td>
                 <td>{$v.title}</td>
                 <td><input type="text" name="sort_order" value="{$v.sort_order}" autocomplete="off" class="layui-input ajax-update" data-url="{:url('admin/classroom/edit', ['id' => $v.id])}"></td>
-                <td><input type="text" name="youxiaoqi" value="{$v.youxiaoqi}" autocomplete="off" class="layui-input ajax-update" data-url="{:url('admin/classroom/edit', ['id' => $v.id])}"></td>
+<!--                <td><input type="text" name="youxiaoqi" value="{$v.youxiaoqi}" autocomplete="off" class="layui-input ajax-update" data-url="{:url('admin/classroom/edit', ['id' => $v.id])}"></td>-->
                 <td><input type="checkbox" name="is_top" lay-skin="switch" lay-filter="*" lay-text="是|否" data-url="{:url('admin/classroom/edit', ['id' => $v.id])}" {if $v.is_top eq 1}checked="checked" {/if}></td>
                 <td><input type="checkbox" name="status" lay-skin="switch" lay-filter="*" lay-text="上架|下架" data-url="{:url('admin/classroom/edit', ['id' => $v.id])}" {if $v.status eq 1}checked="checked" {/if}></td>
                 <td><a href="{:url('admin/classroom/courseList', ['id' => $v.id])}" class="ajax-iframe" data-width="800px" data-height="500px"><span class="layui-badge">{$v.id|getClassroomCourseNum}</span></a></td>
                 <td><a href="{:url('admin/classroom/xueyuanList', ['cid' => $v.id,'type'=>$v.type])}" class="ajax-iframe" data-width="800px" data-height="500px"><span class="layui-badge">{$v.id|getTrueUserNum=###,3}</span></a></td>
-                <td>{$v.headteacher|getTeacherName}</td>
+                <td>{$v.headteacher}</td>
                 <td>
                     <div class="layui-btn-group mb0">
                         <a href="{:url('admin/classroom/edit', ['id' => $v.id])}" class="layui-btn layui-btn-xs"> <i class="layui-icon">&#xe642;</i></a>

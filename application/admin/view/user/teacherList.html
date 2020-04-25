@@ -2,32 +2,56 @@
 {block name="body"}
 <div class="layui-card">
     <div class="layui-card-body">
+        <div class="layui-btn-group fl">
+            <a href="{:url('admin/user/addteacher')}" class="layui-btn"><i class="fa fa-plus-circle"></i> 添加教师</a>
+<!--            <a href="{:url('admin/user/import')}" class="layui-btn ajax-iframe" data-width="500px" data-height="300px"><i class="fa fa-plus-circle"></i> 批量导入</a>-->
+<!--            <a href="{:url('admin/user/export')}" class="layui-btn layui-btn-primary"><i class="fa fa-file-excel-o"></i> 导出会员</a>-->
+        </div>
+        <div class="fl ml20">
+            <form action="{:url('admin/user/teacherList')}" class="layui-form" method="get" style="padding:0px;">
+                <div class="layui-form-item">
+                    <div class="layui-input-inline">
+                        <input type="text" name="key" value="{:input('key')}" autocomplete="off" placeholder="用教师名或手机号搜索" class="layui-input"/>
+                    </div>
+                    <div class="fl">
+                        <button class="layui-btn layui-btn-primary ajax-search"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
         <table class="layui-table layui-form">
             <thead>
             <tr>
-                <th>姓名</th>
-                <th>前台姓名</th>
+                <th>用户名</th>
+                <th>老师姓名</th>
                 <th>手机号</th>
                 <th>性别</th>
-                <th>出生年月</th>
-                <th>申请时间</th>
-                <th>目录ID</th>
-                <!--<th>状态</th>-->
+<!--                <th>出生年月</th>-->
+                <th>添加时间</th>
+<!--                <th>目录ID</th>-->
+                <th>状态</th>
+                <th>操作</th>
             </tr>
             </thead>
             <tbody>
             {foreach name="list" item="v" empty="$empty"}
             <tr>
                 <td>{$v.username}</td>
-                <td>{$v.uid|getUserName}</td>
-                <td>{$v.info.mobile}</td>
-                <td>{$v.info.sex}</td>
-                <td>{$v.info.birth_y}{$v.info.birth_m}{$v.info.birth_d}</td>
-                <td>{$v.info.addtime}</td>
-                <td>{$v.category_id}</td>
-                <!--<td>
-                    <input type="checkbox" name="status" lay-skin="switch" lay-filter="*" lay-text="启用|禁用" data-url="{:url('admin/user/verify', ['id' => $v.id])}" {if $v.status eq 1}checked="checked"{/if}>
-                </td>-->
+                <td>{$v.headteacher}</td>
+                <td>{$v.mobile}</td>
+                <td>{if condition="$v.sex==1"}男{/if} {if condition="$v.sex==2"}女{/if}</td>
+                <td>{$v.create_time}</td>
+                <td>
+                    <input type="checkbox" name="status" lay-skin="switch" lay-filter="*" lay-text="启用|禁用" data-url="{:url('admin/user/editteacher', ['id' => $v.id])}" {if $v.status eq 1}checked="checked"{/if}>
+                </td>
+
+                <td>
+                    <div class="layui-btn-group mb0">
+                        <a href="{:url('admin/user/editteacher', ['id' => $v.id])}" class="layui-btn layui-btn-xs"> <i class="layui-icon">&#xe642;</i></a>
+<!--                        <a href="{:url('admin/user/course', ['id' => $v.id])}" class="layui-btn layui-btn-xs  layui-btn-warm   ajax-iframe" data-width="600px" data-height="400px" data-type="admin" ><i class="layui-icon">&#xe62c;</i></a>-->
+                        <a href="{:url('admin/user/delteacher', ['id' => $v.id])}" class="layui-btn layui-btn-xs layui-btn-danger ajax-delete"> <i class="layui-icon">&#xe640;</i></a>
+                    </div>
+                </td>
             </tr>
             {/foreach}
             </tbody>

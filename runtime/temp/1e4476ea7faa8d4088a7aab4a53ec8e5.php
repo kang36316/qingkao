@@ -72,7 +72,7 @@
 <div class="layui-card">
     <div class="layui-card-body">
         <div class="layui-btn-group fl">
-            <a  href="<?php echo url('admin/educloud/videoup'); ?>" class="layui-btn ajax-iframe_noshut_nobutton" data-width="700px" data-height="450px"><i class="fa fa-plus-circle"></i> 上传视频</a>
+            <a  href="<?php echo url('admin/educloud/quan'); ?>" class="layui-btn ajax-iframe_noshut_nobutton" data-width="700px" data-height="450px"><i class="fa fa-plus-circle"></i> 上传视频</a>
             <a  href="<?php echo url('admin/educloud/videocategory'); ?>" class="layui-btn  layui-btn-warm ajax-iframe" data-width="700px" data-height="450px"><i class="fa fa-plus-circle"></i> 视频分类</a>
             <a  href="<?php echo url('admin/educloud/videodel'); ?>"class="layui-btn layui-btn-danger ajax-batch"><i class="fa fa-trash-o"></i> 批量删除</a>
         </div>
